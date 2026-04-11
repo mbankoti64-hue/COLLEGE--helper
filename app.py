@@ -77,7 +77,7 @@ college_data = {
                 
          💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
            
-    "fees": """:\n
+    "fees": """\n
     .B.Tech: ₹2.5–3.5 Per Year  \n 
     .BCA:    ₹1.2–1.5  Per Year \n
     .MBA:    ₹2–3 Per Year  \n 

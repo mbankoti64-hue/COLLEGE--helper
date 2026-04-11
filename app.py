@@ -209,9 +209,10 @@ def get_response(user_input):
     elif "course" in user_input:
         return college_data["courses"]
     elif "block" in user_input:
+        return college_data["block"]
     elif "Companies" in user_input:
         return college_data["Companies"]
-        return college_data["block"]
+        
     elif "Facilities" in user_input:
         return college_data["Facilities"]
     elif "syllabus" in user_input:

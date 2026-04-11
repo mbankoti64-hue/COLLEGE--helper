@@ -53,7 +53,7 @@ if "welcome_shown" not in st.session_state:
 # Data
 
 college_data = {
-     "about": """Basic Overview:\n
+     "about": """\n
    📍LOCATION" : 🏔️Dehadun , uttrakhand\n
      ESTABLISHED: 1997\n
      Founder: Prof.(Dr.)Kamal Ghanshala\n
@@ -61,7 +61,7 @@ college_data = {
      Accreditation: NAAC A+💯 Grade\n
      Approved by:🎓UGC, AICTE""",
     
-    "courses": """All Top courses:\n
+    "courses": """\n
    🎓 B.Tech: .CSE\n
             . AI & Data science \n
             . Mehanical\n
@@ -77,7 +77,7 @@ college_data = {
                 
          💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
            
-    "fees": """Coureses Fees:\n
+    "fees": """:\n
     .B.Tech: ₹2.5–3.5 Per Year  \n 
     .BCA:    ₹1.2–1.5  Per Year \n
     .MBA:    ₹2–3 Per Year  \n 
@@ -105,8 +105,8 @@ college_data = {
     
     4. SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  \n
     .hostel fees : 160000 These fees may vary for different hostels\n 
-    .hostel facilities: .WiFi Rooms\n
-                        .Mess Facility/n
+    .hostel facilities: .WiFi Rooms
+                        .Mess Facility
                         .24/7 Security""", 
     "companies":"""\n
     .TCS\n

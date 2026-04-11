@@ -62,16 +62,16 @@ college_data = {
      Approved by:🎓UGC, AICTE""",
     
     "courses": """\n
-   🎓 B.Tech: .CSE\n
-            . AI & Data science \n
-            . Mehanical\n
-            . Civil\n
-            . Cyber Security\n
+   🎓 B.Tech: CSE\n
+              AI & Data science \n
+              Mehanical\n
+              Civil\n
+              Cyber Security\n
                           
-🎓BCA / MCA : . AI & Data science\n
-            . Cyber Security\n  
+🎓BCA / MCA : AI & Data science\n
+              Cyber Security\n  
             
-🎓BBA / MBA : .AI/DS \n
+🎓BBA / MBA : AI/DS \n
 
 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment \n
                 
@@ -142,7 +142,7 @@ college_data = {
 
     #                thes are major subjects""",
      
-    "cabin":""" Staff room:\n
+    "cabin":"""\n
     Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
     Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
     Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
@@ -153,7 +153,7 @@ college_data = {
             
     
    
-    "faculty":"""faculty(Title):\n
+    "faculty":"""\n
     Mr. priyansh kumar  (Introduction to Data Science)             
     Mr. Mohit Amoli     (Foundation of Artificial Intelligence)     
     Dr. Didvijay Tanwar (Probability and Statistics for Data Science) 

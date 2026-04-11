@@ -53,7 +53,7 @@ if "welcome_shown" not in st.session_state:
 # Data
 
 college_data = {
-    "about": """LOCATION" : Dehadun , uttrakhand \n
+    "about\n": """LOCATION" : Dehadun , uttrakhand \n
      ESTABLISHED: 1997 \n
      Founder: Prof.(Dr.)Kamal Ghanshala \n
      Type: Private Deemed University \n

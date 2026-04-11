@@ -130,7 +130,7 @@ college_data = {
 st.sidebar.title("📌 Quick Menu")
 option = st.sidebar.selectbox(
     "Select Option",
-    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin"]
+    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin","Block"]
 )
 
 if st.sidebar.button("🗑 Clear Chat"):
@@ -171,7 +171,7 @@ def get_response(user_input):
     elif "hostel" in user_input:
         return college_data["hostel"]
     elif "cabin" in user_input:
-        return college_data["fcabin"]
+        return college_data["cabin"]
     elif "placement" in user_input:
         return college_data["placement"]
     elif "faculty" in user_input:

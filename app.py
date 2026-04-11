@@ -73,17 +73,25 @@ college_data = {
     hostel fees : 160000 These fees may vary for different hostels """, 
 
      
-    # "mayank": "hello",
+    "faculty cabin":""" Staff room:\n
+    Mr. priyansh kumar  🧑‍🏫 Faculty Cabin (Paramedical 4th floor) \n
+    Mr. Mohit Amoli     🧑‍🏫 Faculty Cabin (Paramedical 2th floor) \n
+    Dr. Didvijay Tanwar 🧑‍🏫 Faculty Cabin (OLD MCA 2th floor) \n
+    Ms. Aayushi Rana    👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
+    Ms. Swati Pant      👩‍🏫 Faculty Cabin (Paramedical 4th floor) \n
+    Ms. shurti Saini    👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
+    Mr. Gautam Badoni   🧑‍🏫 Faculty Cabin (Paramedical 2th floor)""",
+            
     
    
     "faculty":"""faculty(Title):\n
-    Mr. priyansh kumar  (Introduction to Data Science)               🧑‍🏫 Faculty Cabin (Paramedical 4th floor) \n
-    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)      🧑‍🏫 Faculty Cabin (Paramedical 2th floor) \n
-    Dr. Didvijay Tanwar (Probability and Statistics for Data Science)🧑‍🏫 Faculty Cabin (OLD MCA 2th floor) \n
-    Ms. Aayushi Rana    (Programming concepts using c language)      👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
-    Ms. Swati Pant      (Cyber security Essentials)                  👩‍🏫 Faculty Cabin (Paramedical 4th floor) \n
-    Ms. shurti Saini    (LAB DS)                                     👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
-    Mr. Gautam Badoni   (LAb C )                                     🧑‍🏫 Faculty Cabin (Paramedical 2th floor)
+    Mr. priyansh kumar  (Introduction to Data Science) \n              
+    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)     \ n
+    Dr. Didvijay Tanwar (Probability and Statistics for Data Science) \n
+    Ms. Aayushi Rana    (Programming concepts using c language)  \n  
+    Ms. Swati Pant      (Cyber security Essentials)     \n             
+    Ms. shurti Saini    (LAB DS)   \n                                  
+    Mr. Gautam Badoni   (LAb C )                                     
             
             Over all total courses 600+ Faculty | PhD Holders"""
     
@@ -134,8 +142,8 @@ def get_response(user_input):
      #    return college_data["mayank"]
     elif "hostel" in user_input:
         return college_data["hostel"]
-    # elif "hostel fees" in user_input:
-    #     return college_data["hostel fees"]
+   elif "faculty cabin" in user_input:
+        return college_data["faculty cabin"]
     elif "placement" in user_input:
         return college_data["placement"]
     elif "faculty" in user_input:

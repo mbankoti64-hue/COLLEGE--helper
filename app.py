@@ -61,18 +61,32 @@ college_data = {
      Accreditation: NAAC A+💯 Grade\n
      Approved by:🎓UGC, AICTE""",
     
-    "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA TOTAL 100+ course (UG + PG + PHD + Diploma)" ,
+    "courses": """B.Tech: .CSE\n
+                          . AI & Data science \n
+                          . Mehanical\n
+                          . Civil\n
+                          . ECE\n
+                          
+                 BCA / MCA : . AI & Data science\n
+                             . Cyber Security\n
+                             
+                BBA / MBA \n
+
+                B.Com / M.Com / Pharmacy / LAW / Hotel Managment \n
+                
+           TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
+           
     "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5  PER YEAR",
     "placement": "Highest: ₹65+ LPA  Avg: ₹5–8 LPA",
    
     "hostel":"""Name:\n
-    CHANDRA SHEKHER AZAD\n  
-    SARDAR PATEL HOSTEL\n  
-    NETAJI SUBHASH CHANDRA HOSTEL\n
-    SAI HOSTEL  \n
-    hostel fees : 160000 These fees may vary for different hostels """, 
+    1. CHANDRA SHEKHER AZAD\n  
+    2. SARDAR PATEL HOSTEL\n  
+    3. NETAJI SUBHASH CHANDRA HOSTEL\n
+    4. SAI HOSTEL  \n
+    5. hostel fees : 160000 These fees may vary for different hostels """, 
 
-    "Block":"""block/building 🏛:\n
+    "block":"""building 🏛:\n
     Total Block 6 Major Block are their
     1. KP.Nautiyal
     2. Chanakya block
@@ -164,8 +178,8 @@ def get_response(user_input):
         return college_data["fees"]
     elif "course" in user_input:
         return college_data["courses"]
-    elif "Block" in user_input:
-        return college_data["Block"]
+    elif "block" in user_input:
+        return college_data["block"]
     elif "syllabus" in user_input:
         return college_data["syllabus"]
     elif "hostel" in user_input:

@@ -52,14 +52,34 @@ if "welcome_shown" not in st.session_state:
 # -------------------------------
 # Data
 # -------------------------------
-college_data = {
-    "about": "Graphic Era University, Dehradun | NAAC A+ | Established 1993",
-    "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA",
-    "fees": "B.Tech: ₹2.5–3.5 LPA | BCA: ₹1.2–1.5 LPA",
-    "placement": "Highest: ₹50+ LPA | Avg: ₹5–8 LPA",
-    "hostel": "WiFi, Mess, Security 24/7",
-    "faculty": "500+ Faculty | PhD Holders"
-}
+def get_college_info(user_input):
+
+    college_data = {
+        "about": """LOCATION: Dehradun, Uttarakhand \n
+ESTABLISHED: 1997 \n
+Founder: Prof.(Dr.) Kamal Ghanshala \n
+Type: Private Deemed University \n
+Accreditation: NAAC A+ Grade \n
+Approved by: UGC, AICTE""",
+
+        "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA (100+ courses including UG, PG, PhD, Diploma)",
+
+        "fees": "B.Tech: ₹2.5–3.5 LPA | BCA: ₹1.2–1.5 LPA per year",
+
+        "placement": "Highest: ₹65+ LPA | Average: ₹5–8 LPA",
+
+        "hostel": """Hostels Available:\n
+Chandra Shekhar Azad Hostel\n
+Sardar Patel Hostel\n
+Netaji Subhash Chandra Hostel\n
+Sai Hostel\n
+Fees: ₹1,60,000 (may vary)""",
+
+        "faculty": "600+ Faculty | Mostly PhD Holders"
+    }
+
+   
+   
 
 # -------------------------------
 # Sidebar
@@ -94,25 +114,23 @@ user_input = st.chat_input("Ask something...")
 # -------------------------------
 # Chatbot Logic
 # -------------------------------
-def get_response(user_input):
+# def get_response(user_input):
     user_input = user_input.lower()
 
-    if "fee" in user_input:
+   if "fee" in user_input:
         return college_data["fees"]
     elif "course" in user_input:
         return college_data["courses"]
-    elif "placement" in user_input:
-        return college_data["placement"]
     elif "hostel" in user_input:
         return college_data["hostel"]
+    elif "placement" in user_input:
+        return college_data["placement"]
     elif "faculty" in user_input:
         return college_data["faculty"]
     elif "about" in user_input or "college" in user_input:
         return college_data["about"]
-    elif "hi" in user_input or "hello" in user_input:
-        return "Hello 👋! Ask me anything about the college."
     else:
-        return "❗ Try asking about fees, courses, placement, hostel."
+        return "Sorry, I didn't understand your query.
 
 # -------------------------------
 # Show old messages

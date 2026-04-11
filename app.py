@@ -62,7 +62,7 @@ college_data = {
      Approved by: UGC, AICTE""",
     
     "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA TOTAL 100+ course (UG + PG + PHD + Diploma)" ,
-    "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5 LPA PER YEAR",
+    "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5  PER YEAR",
     "placement": "Highest: ₹65+ LPA  Avg: ₹5–8 LPA",
    
     "hostel":"""Name:\n
@@ -76,14 +76,14 @@ college_data = {
     # "mayank": "hello",
     
    
-    "faculty":"""faculty(Title):\n
-    Mr. priyansh kumar  (Introduction to Data Science) \n
-    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)\n
-    Dr. Didvijay Tanwar (Probability and Statistics for Data Science)\n
-    Ms. Aayushi Rana    (Programming concepts using c language)\n
-    Ms. Swati Pant      (Cyber security Essentials) \n
-    Ms. shurti Saini    (LAB DS)\n
-    Mr. Gautam Badoni   (LAb C )
+    " semste faculty":"""faculty(Title):\n
+    Mr. priyansh kumar  (Introduction to Data Science)               🧑‍🏫 Faculty Cabin (Paramedical 4th floor) \n
+    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)      🧑‍🏫 Faculty Cabin (Paramedical 2th floor) \n
+    Dr. Didvijay Tanwar (Probability and Statistics for Data Science)🧑‍🏫 Faculty Cabin (OLD MCA 2th floor) \n
+    Ms. Aayushi Rana    (Programming concepts using c language)      👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
+    Ms. Swati Pant      (Cyber security Essentials)                  👩‍🏫 Faculty Cabin (Paramedical 4th floor) \n
+    Ms. shurti Saini    (LAB DS)                                     👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
+    Mr. Gautam Badoni   (LAb C )                                     🧑‍🏫 Faculty Cabin (Paramedical 2th floor)
             
             Over all total courses 600+ Faculty | PhD Holders"""
     

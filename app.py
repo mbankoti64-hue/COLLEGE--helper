@@ -55,11 +55,11 @@ if "welcome_shown" not in st.session_state:
 college_data = {
     "about": """Basic Overview: \n
    📍LOCATION" : 🏔️Dehadun , uttrakhand \n
-     ESTABLISHED: 1997 \n
-     Founder: Prof.(Dr.)Kamal Ghanshala \n
-     Type: Private Deemed University \n
-     Accreditation: NAAC A+ Grade 💯\n
-     Approved by:🎓UGC, AICTE""",
+    🧑‍🏫 ESTABLISHED: 1997 \n
+    🧑‍🏫 Founder: Prof.(Dr.)Kamal Ghanshala \n
+     🧑‍🏫Type: Private Deemed University \n
+    🧑‍🏫 Accreditation: NAAC A+ Grade 💯\n
+     🧑‍🏫Approved by:🎓UGC, AICTE""",
     
     "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA TOTAL 100+ course (UG + PG + PHD + Diploma)" ,
     "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5  PER YEAR",
@@ -100,13 +100,13 @@ college_data = {
     #                thes are major subjects""",
      
     "faculty cabin":""" Staff room:\n
-    Mr. priyansh kumar  🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Mr. Mohit Amoli     🧑‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Dr. Didvijay Tanwar 🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
-    Ms. Aayushi Rana    👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Ms. Swati Pant      👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Ms. shurti Saini    👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Mr. Gautam Badoni   🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
+    Mr. priyansh kumar       🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Mr. Mohit Amoli          🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
+    Dr. Didvijay Tanwar      🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
+    Ms. Aayushi Rana         👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Ms. Swati Pant           👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Ms. shurti Saini         👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Mr. Gautam Badoni        🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
             
     
    

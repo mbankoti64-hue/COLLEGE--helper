@@ -88,7 +88,7 @@ college_data = {
     Average Package: ₹5–8 LPA
             Placement Rate: 90%+.""",
 
-    "Facilities": """\n
+    "facilities": """\n
     .Smart Classrooms\n
     .Central Library\n
     .Computer Labs\n
@@ -109,7 +109,7 @@ college_data = {
     .hostel facilities: .WiFi Rooms\n
                         .Mess Facility/n
                         .24/7 Security""", 
-    "Companies":"""\n
+    "companies":"""\n
     .TCS\n
     .Infosys\n
     .Wipro\n
@@ -210,11 +210,11 @@ def get_response(user_input):
         return college_data["courses"]
     elif "block" in user_input:
         return college_data["block"]
-    elif "Companies" in user_input:
-        return college_data["Companies"]
+    elif "companies" in user_input:
+        return college_data["companies"]
         
-    elif "Facilities" in user_input:
-        return college_data["Facilities"]
+    elif "facilities" in user_input:
+        return college_data["facilities"]
     elif "syllabus" in user_input:
         return college_data["syllabus"]
     elif "hostel" in user_input:

@@ -51,35 +51,37 @@ if "welcome_shown" not in st.session_state:
 
 # -------------------------------
 # Data
-# -------------------------------
-# def get_college_info(user_input):
-
-    college_data = {
-        "about": """LOCATION: Dehradun, Uttarakhand \n
-ESTABLISHED: 1997 \n
-Founder: Prof.(Dr.) Kamal Ghanshala \n
-Type: Private Deemed University \n
-Accreditation: NAAC A+ Grade \n
-Approved by: UGC, AICTE""",
-
-        "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA (100+ courses including UG, PG, PhD, Diploma)",
-
-        "fees": "B.Tech: ₹2.5–3.5 LPA | BCA: ₹1.2–1.5 LPA per year",
-
-        "placement": "Highest: ₹65+ LPA | Average: ₹5–8 LPA",
-
-        "hostel": """Hostels Available:\n
-Chandra Shekhar Azad Hostel\n
-Sardar Patel Hostel\n
-Netaji Subhash Chandra Hostel\n
-Sai Hostel\n
-Fees: ₹1,60,000 (may vary)""",
-
-        "faculty": "600+ Faculty | Mostly PhD Holders"
-    }
-
+-------------------------------
+college_data = {
+    "about": """LOCATION" : Dehadun , uttrakhand \n
+     ESTABLISHED: 1997 \n
+     Founder: Prof.(Dr.)Kamal Ghanshala \n
+     Type: Private Deemed University \n
+     Accreditation: NAAC A+ Grade \n
+     Approved by: UGC, AICTE""",
+    
+    "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA TOTAL 100+ course (UG + PG + PHD + Diploma)" ,
+    "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5 LPA PER YEAR",
+    "placement": "Highest: ₹65+ LPA  Avg: ₹5–8 LPA",
    
+    "hostel": """Name:\n
+    CHANDRA SHEKHER AZAD\n  
+    SARDAR PATEL HOSTEL\n  
+    NETAJI SUBHASH CHANDRA HOSTEL\n
+    SAI HOSTEL  \n
+    "hostel fees ": 160000 These fees may vary for different hostels """, 
+
+     "
+    # "mayank": "hello",
+    
    
+    "faculty":"""Name: priyansh kumar \n
+                       mohit amoli 
+                       mayank
+    "600+ Faculty | PhD Holders"""
+    
+   
+}
 
 # -------------------------------
 # Sidebar
@@ -117,20 +119,26 @@ user_input = st.chat_input("Ask something...")
 def get_response(user_input):
     user_input = user_input.lower()
 
-   if "fees" in user_input:
+    if "fee" in user_input:
         return college_data["fees"]
-    elif "courses" in user_input:
+    elif "course" in user_input:
         return college_data["courses"]
-    elif "hostel" in user_input:
-        return college_data["hostel"]
+     # elif "mayank" in user_input:
+     #    return college_data["mayank"]
+    elif "hostel " in user_input:
+        return college_data["hostel "]
+    elif "hostel fees" in user_input:
+        return college_data["hostel fees"]
     elif "placement" in user_input:
         return college_data["placement"]
     elif "faculty" in user_input:
         return college_data["faculty"]
     elif "about" in user_input or "college" in user_input:
         return college_data["about"]
+    elif "hi" in user_input or "hello" in user_input or "namste bhai jii" in user_input:
+        return "AA GYA GANDU HIIIIIIIIII KESA LGA MERA MAJAK "
     else:
-        return "Sorry, I didn't understand your query.
+        return "❗  ARE BHOSDIKE IN QUESTION ME SE KUCH PUCH NA KYU APNI GAND MRA RAHA HAI BHOSDII Try asking about fees, courses, placement, hostel."
 
 # -------------------------------
 # Show old messages
@@ -164,4 +172,3 @@ if user_input:
     st.session_state.messages.append({"role": "assistant", "content": response})
 
     with st.chat_message("assistant"):
-        type_effect(response)

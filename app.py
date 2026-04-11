@@ -142,7 +142,7 @@ def get_response(user_input):
      #    return college_data["mayank"]
     elif "hostel" in user_input:
         return college_data["hostel"]
-   elif "faculty cabin" in user_input:
+    elif "faculty cabin" in user_input:
         return college_data["faculty cabin"]
     elif "placement" in user_input:
         return college_data["placement"]

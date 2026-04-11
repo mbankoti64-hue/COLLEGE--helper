@@ -81,7 +81,7 @@ college_data = {
     5. CS/IT  block (BCA and MCA classes are held in the CS/IT block
     6. Paramedical block""",
 
-    "Bca 1 semester syllabus":"""Syllabus:\n
+    "Bca syllabus":"""Syllabus:\n
     1. Computational Thinking and fundamentals of IT
     2. Fundamentals of Python
     3. Mathematics Foundation for AI
@@ -166,7 +166,7 @@ def get_response(user_input):
         return college_data["courses"]
     elif "Block" in user_input:
         return college_data["Block"]
-    elif "Bca 1 semester syllabus" in user_input:
+    elif "Bca syllabus" in user_input:
         return college_data["Bca 1 semester syllabus"]
     elif "hostel" in user_input:
         return college_data["hostel"]

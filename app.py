@@ -76,7 +76,7 @@ college_data = {
     # "mayank": "hello",
     
    
-    " semste faculty":"""faculty(Title):\n
+    "faculty":"""faculty(Title):\n
     Mr. priyansh kumar  (Introduction to Data Science)               🧑‍🏫 Faculty Cabin (Paramedical 4th floor) \n
     Mr. Mohit Amoli     (Foundation of Artificial Intelligence)      🧑‍🏫 Faculty Cabin (Paramedical 2th floor) \n
     Dr. Didvijay Tanwar (Probability and Statistics for Data Science)🧑‍🏫 Faculty Cabin (OLD MCA 2th floor) \n

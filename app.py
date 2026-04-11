@@ -164,7 +164,7 @@ def get_response(user_input):
         return college_data["fees"]
     elif "course" in user_input:
         return college_data["courses"]
-     elif "Block" in user_input:
+    elif "Block" in user_input:
         return college_data["Block"]
     elif "Bca 1 semester syllabus" in user_input:
         return college_data["Bca 1 semester syllabus"]

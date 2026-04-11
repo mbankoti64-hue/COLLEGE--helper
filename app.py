@@ -52,7 +52,7 @@ if "welcome_shown" not in st.session_state:
 # -------------------------------
 # Data
 # -------------------------------
-def get_college_info(user_input):
+# def get_college_info(user_input):
 
     college_data = {
         "about": """LOCATION: Dehradun, Uttarakhand \n
@@ -114,7 +114,7 @@ user_input = st.chat_input("Ask something...")
 # -------------------------------
 # Chatbot Logic
 # -------------------------------
-# def get_response(user_input):
+def get_response(user_input):
     user_input = user_input.lower()
 
    if "fee" in user_input:

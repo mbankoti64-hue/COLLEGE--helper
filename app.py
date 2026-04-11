@@ -172,3 +172,4 @@ if user_input:
     st.session_state.messages.append({"role": "assistant", "content": response})
 
     with st.chat_message("assistant"):
+        type_effect(response)

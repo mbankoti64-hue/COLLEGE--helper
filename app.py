@@ -63,7 +63,7 @@ college_data = {
     
     "courses": """\n
    🎓 B.Tech: CSE\n
-              AI & Data science \n
+              AI & Data science\n
               Mehanical\n
               Civil\n
               Cyber Security\n
@@ -71,9 +71,9 @@ college_data = {
 🎓BCA / MCA : AI & Data science\n
               Cyber Security\n  
             
-🎓BBA / MBA : AI/DS \n
+🎓BBA / MBA : AI/DS\n
 
-🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment \n
+🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment\n
                 
          💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
            
@@ -84,8 +84,8 @@ college_data = {
     .BBA:    ₹2 Per Year""",
     
     "placement": """\n
-    Highest: ₹65+ LPA 
-    Average Package: ₹5–8 LPA
+    Highest: ₹65+ LPA\n 
+    Average Package: ₹5–8 LPA\n
             Placement Rate: 90%+.""",
 
     "facilities": """\n

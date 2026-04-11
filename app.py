@@ -62,20 +62,15 @@ college_data = {
      Approved by:🎓UGC, AICTE""",
     
     "courses": """\n
-   🎓 B.Tech: CSE\n
-              AI & Data science\n
-              Mehanical\n
-              Civil\n
-              Cyber Security\n
+🎓 B.Tech: CSE\n AI & Data science\n Mehanical\n  Civil\n Cyber Security\n
                           
-🎓BCA / MCA : AI & Data science\n
-              Cyber Security\n  
+🎓BCA / MCA : AI & Data science\n Cyber Security\n  
             
 🎓BBA / MBA : AI/DS\n
 
 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment\n
                 
-         💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
+💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
            
     "fees": """\n
     .B.Tech: ₹2.5–3.5 Per Year  \n 

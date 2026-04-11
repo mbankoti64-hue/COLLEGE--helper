@@ -62,9 +62,9 @@ college_data = {
      Approved by:🎓UGC, AICTE""",
     
     "courses": """\n
-🎓 B.Tech: CSE\n AI & Data science\n Mehanical\n  Civil\n Cyber Security\n
+🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security\n
                           
-🎓BCA / MCA : AI & Data science\n Cyber Security\n  
+🎓BCA / MCA : AI & Data science / Cyber Security\n  
             
 🎓BBA / MBA : AI/DS\n
 
@@ -81,7 +81,7 @@ college_data = {
     "placement": """\n
     Highest: ₹65+ LPA\n 
     Average Package: ₹5–8 LPA\n
-            Placement Rate: 90%+.""",
+    Placement Rate: 90%+.""",
 
     "facilities": """\n
     .Smart Classrooms\n
@@ -100,9 +100,8 @@ college_data = {
     
     4. SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  \n
     .hostel fees : 160000 These fees may vary for different hostels\n 
-    .hostel facilities: .WiFi Rooms
-                        .Mess Facility
-                        .24/7 Security""", 
+    .hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security""", 
+    
     "companies":"""\n
     .TCS\n
     .Infosys\n
@@ -126,7 +125,7 @@ college_data = {
     4. Professional English Skills
     5. Principales and Practices of Managements 
 
-                   thes are major subjects""",
+    thes are major subjects""",
 
     # "Bca 2 semester syllabus":"""Syllabus:\n
     # 1. Computational Thinking and fundamentals of IT
@@ -157,7 +156,7 @@ college_data = {
     Ms. shurti Saini    (LAB DS)                                   
     Mr. Gautam Badoni   (LAb C )                                     
             
-            Over all total courses and 600+ Faculty | PhD Holders Industry Exprts"""
+     Over all total courses and 600+ Faculty | PhD Holders Industry Exprts"""
     
    
 }

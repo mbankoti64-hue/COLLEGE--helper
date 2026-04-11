@@ -96,7 +96,7 @@ college_data = {
     .Medical Facility""",
     
    
-    "hostel":"""Name:\n
+    "hostel":"""\n
     1. CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw)\n  
     
     2. ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)\n 
@@ -115,7 +115,7 @@ college_data = {
     .Micrisoft\n
     .Google""",
 
-    "block":"""building 🏛:\n
+    "block":"""\n
     Total Block 6 Major Block are their
     1. KP.Nautiyal
     2. Chanakya block
@@ -124,7 +124,7 @@ college_data = {
     5. CS/IT  block (BCA and MCA classes are held in the CS/IT block
     6. Paramedical block""",
 
-    "syllabus":"""Syllabus:\n
+    "syllabus":"""\n
     1. Computational Thinking and fundamentals of IT
     2. Fundamentals of Python
     3. Mathematics Foundation for AI
@@ -143,12 +143,12 @@ college_data = {
     #                thes are major subjects""",
      
     "cabin":""" Staff room:\n
-    Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)
-    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)
-    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)
-    Ms. Aayushi Rana            👩‍🏫Faculty Cabin (Paramedical 2th floor)
-    Ms. Swati Pant              👩‍🏫Faculty Cabin (Paramedical 4th floor)
-    Ms. shurti Saini            👩‍🏫Faculty Cabin (Paramedical 2th floor)
+    Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
+    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
+    Ms. Aayushi Rana            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Ms. Swati Pant              👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Ms. shurti Saini            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
     Mr. Gautam Badoni           🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
             
     

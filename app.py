@@ -97,14 +97,13 @@ college_data = {
     
    
     "hostel":"""Name:\n
-    1. CHANDRA SHEKHER AZAD\n  
+    1. CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw)\n  
     
-    2. SARDAR PATEL HOSTEL\n 
+    2. ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)\n 
     
-    3. NETAJI SUBHASH CHANDRA HOSTEL\n
+    3. NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)\n
     
-    4. SAI HOSTEL  \n
-    
+    4. SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  \n
     .hostel fees : 160000 These fees may vary for different hostels\n 
     .hostel facilities: .WiFi Rooms\n
                         .Mess Facility/n
@@ -144,23 +143,23 @@ college_data = {
     #                thes are major subjects""",
      
     "cabin":""" Staff room:\n
-    Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
-    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
-    Ms. Aayushi Rana            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Ms. Swati Pant              👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Ms. shurti Saini            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)
+    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)
+    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)
+    Ms. Aayushi Rana            👩‍🏫Faculty Cabin (Paramedical 2th floor)
+    Ms. Swati Pant              👩‍🏫Faculty Cabin (Paramedical 4th floor)
+    Ms. shurti Saini            👩‍🏫Faculty Cabin (Paramedical 2th floor)
     Mr. Gautam Badoni           🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
             
     
    
     "faculty":"""faculty(Title):\n
-    Mr. priyansh kumar  (Introduction to Data Science) \n              
-    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)     \ n
-    Dr. Didvijay Tanwar (Probability and Statistics for Data Science) \n
-    Ms. Aayushi Rana    (Programming concepts using c language)  \n  
-    Ms. Swati Pant      (Cyber security Essentials)     \n             
-    Ms. shurti Saini    (LAB DS)   \n                                  
+    Mr. priyansh kumar  (Introduction to Data Science)             
+    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)     
+    Dr. Didvijay Tanwar (Probability and Statistics for Data Science) 
+    Ms. Aayushi Rana    (Programming concepts using c language)    
+    Ms. Swati Pant      (Cyber security Essentials)                  
+    Ms. shurti Saini    (LAB DS)                                   
     Mr. Gautam Badoni   (LAb C )                                     
             
             Over all total courses and 600+ Faculty | PhD Holders Industry Exprts"""
@@ -174,7 +173,7 @@ college_data = {
 st.sidebar.title("📌 Quick Menu")
 option = st.sidebar.selectbox(
     "Select Option",
-    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin","Block","Facilities","Top Companies"]
+    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin","Block","Facilities","Companies"]
 )
 
 if st.sidebar.button("🗑 Clear Chat"):
@@ -228,7 +227,7 @@ def get_response(user_input):
     elif "about" in user_input or "college" in user_input:
         return college_data["about"]
     elif "hi" in user_input or "hello" in user_input or "namste bhai jii" in user_input:
-        return "AA GYA GANDU 🤣🤣🤣🤣"
+        return "AAGYA GANDU 🤣🤣🤣🤣"
     else:
         return "❗  ARE BHOSDIKE 😡😡😡😡😡IN QUESTION ME SE KUCH PUCH NA KYU APNI GAND MRA RAHA HAI BHOSDII Try asking about fees, courses, placement, hostel."
 

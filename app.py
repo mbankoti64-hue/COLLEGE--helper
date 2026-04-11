@@ -76,10 +76,16 @@ college_data = {
     # "mayank": "hello",
     
    
-    "faculty":"""Name: priyansh kumar \n
-                       mohit amoli 
-                       mayank
-    "600+ Faculty | PhD Holders"""
+    "faculty":"""faculty(Title):\n
+    Mr. priyansh kumar  (Introduction to Data Science) \n
+    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)\n
+    Dr. Didvijay Tanwar (Probability and Statistics for Data Science)\n
+    Ms. Aayushi Rana    (Programming concepts using c language)\n
+    Ms. Swati Pant      (Cyber security Essentials) \n
+    Ms. shurti Saini    (LAB DS)\n
+    Mr. Gautam Badoni   (LAb C )
+            
+            Over all total courses 600+ Faculty | PhD Holders"""
     
    
 }

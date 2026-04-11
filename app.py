@@ -99,8 +99,8 @@ college_data = {
     3. NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)\n
     
     4. SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  \n
-    .hostel fees : 160000 These fees may vary for different hostels\n 
-    .hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security""", 
+    .Hostel fees : 160000 These fees may vary for different hostels\n 
+    .Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security""", 
     
     "companies":"""\n
     .TCS\n
@@ -114,8 +114,8 @@ college_data = {
     1. KP.Nautiyal
     2. Chanakya block
     3. OLD MCA block
-    4. Main(admission)/Btech block
-    5. CS/IT  block (BCA and MCA classes are held in the CS/IT block
+    4. Main(admission)/ Btech block
+    5. CS/IT  block    (BCA and MCA classes are held in the CS/IT block)
     6. Paramedical block""",
 
     "syllabus":"""\n
@@ -137,26 +137,26 @@ college_data = {
     #                thes are major subjects""",
      
     "cabin":"""\n
-    Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
-    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
-    Ms. Aayushi Rana            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Ms. Swati Pant              👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Ms. shurti Saini            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
+    Mr. priyansh kumar          🧑‍🏫Faculty Cabin   (Paramedical 4th floor)\n
+    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin  (Paramedical 2th floor)\n
+    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin   (OLD MCA 2th floor)\n
+    Ms. Aayushi Rana            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
+    Ms. Swati Pant              👩‍🏫Faculty Cabin   (Paramedical 4th floor)\n
+    Ms. shurti Saini            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
+    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin   (Paramedical 2th floor)""",
             
     
    
     "faculty":"""\n
-    Mr. priyansh kumar  (Introduction to Data Science)             
-    Mr. Mohit Amoli     (Foundation of Artificial Intelligence)     
-    Dr. Didvijay Tanwar (Probability and Statistics for Data Science) 
-    Ms. Aayushi Rana    (Programming concepts using c language)    
-    Ms. Swati Pant      (Cyber security Essentials)                  
-    Ms. shurti Saini    (LAB DS)                                   
-    Mr. Gautam Badoni   (LAb C )                                     
+    Mr. priyansh kumar   (Introduction to Data Science)             
+    Mr. Mohit Amoli      (Foundation of Artificial Intelligence)     
+    Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)\n
+    Ms. Aayushi Rana     (Programming concepts using c language)    
+    Ms. Swati Pant       (Cyber security Essentials)                  
+    Ms. shurti Saini     (LAB DS)                                   
+    Mr. Gautam Badoni    (LAb C )                                     
             
-     Over all total courses and 600+ Faculty | PhD Holders Industry Exprts"""
+     All 600+ Faculty | PhD Holders Industry Exprts"""
     
    
 }

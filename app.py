@@ -61,30 +61,60 @@ college_data = {
      Accreditation: NAAC A+💯 Grade\n
      Approved by:🎓UGC, AICTE""",
     
-    "courses": """B.Tech: .CSE\n
-                          . AI & Data science \n
-                          . Mehanical\n
-                          . Civil\n
-                          . ECE\n
+    "courses": """All Top courses:\n
+   🎓 B.Tech: .CSE\n
+            . AI & Data science \n
+            . Mehanical\n
+            . Civil\n
+            . Cyber Security\n
                           
-                 BCA / MCA : . AI & Data science\n
-                             . Cyber Security\n
-                             
-                BBA / MBA \n
+🎓BCA / MCA : . AI & Data science\n
+            . Cyber Security\n  
+            
+🎓BBA / MBA : .AI/DS \n
 
-                B.Com / M.Com / Pharmacy / LAW / Hotel Managment \n
+🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment \n
                 
-           TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
+         💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
            
-    "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5  PER YEAR",
-    "placement": "Highest: ₹65+ LPA  Avg: ₹5–8 LPA",
+    "fees": """Coureses Fees:\n
+    .B.Tech: ₹2.5–3.5 Per Year  \n 
+    .BCA:    ₹1.2–1.5  Per Year \n
+    .MBA:    ₹2–3 Per Year  \n 
+    .BBA:    ₹2 Per Year""",
+    
+    "placement": """\n
+    Highest: ₹65+ LPA \n
+    Average Package: ₹5–8 LPA\n
+            Placement Rate: 90%+.""",
+
+    "Facilities": """\n
+    .Smart Classrooms\n
+    .Central Library\n
+    .Computer Labs\n
+    .Gym\n
+    .Medical Facility""",
+    
    
     "hostel":"""Name:\n
     1. CHANDRA SHEKHER AZAD\n  
-    2. SARDAR PATEL HOSTEL\n  
+    
+    2. SARDAR PATEL HOSTEL\n 
+    
     3. NETAJI SUBHASH CHANDRA HOSTEL\n
+    
     4. SAI HOSTEL  \n
-    5. hostel fees : 160000 These fees may vary for different hostels """, 
+    
+    .hostel fees : 160000 These fees may vary for different hostels\n 
+    .hostel facilities: .WiFi Rooms\n
+                        .Mess Facility/n
+                        .24/7 Security""", 
+    "Companies":"""\n
+    .TCS\n
+    .Infosys\n
+    .Wipro\n
+    .Micrisoft\n
+    .Google""",
 
     "block":"""building 🏛:\n
     Total Block 6 Major Block are their
@@ -114,13 +144,13 @@ college_data = {
     #                thes are major subjects""",
      
     "cabin":""" Staff room:\n
-    Mr. priyansh kumar       🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Mr. Mohit Amoli          🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
-    Dr. Didvijay Tanwar      🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
-    Ms. Aayushi Rana         👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Ms. Swati Pant           👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
-    Ms. shurti Saini         👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
-    Mr. Gautam Badoni        🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
+    Mr. priyansh kumar          🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
+    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
+    Ms. Aayushi Rana            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Ms. Swati Pant              👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Ms. shurti Saini            👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
             
     
    
@@ -133,7 +163,7 @@ college_data = {
     Ms. shurti Saini    (LAB DS)   \n                                  
     Mr. Gautam Badoni   (LAb C )                                     
             
-            Over all total courses 600+ Faculty | PhD Holders"""
+            Over all total courses and 600+ Faculty | PhD Holders Industry Exprts"""
     
    
 }
@@ -144,7 +174,7 @@ college_data = {
 st.sidebar.title("📌 Quick Menu")
 option = st.sidebar.selectbox(
     "Select Option",
-    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin","Block"]
+    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin","Block","Facilities","Top Companies"]
 )
 
 if st.sidebar.button("🗑 Clear Chat"):
@@ -179,7 +209,11 @@ def get_response(user_input):
     elif "course" in user_input:
         return college_data["courses"]
     elif "block" in user_input:
+    elif "Companies" in user_input:
+        return college_data["Companies"]
         return college_data["block"]
+    elif "Facilities" in user_input:
+        return college_data["Facilities"]
     elif "syllabus" in user_input:
         return college_data["syllabus"]
     elif "hostel" in user_input:

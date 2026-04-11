@@ -126,7 +126,7 @@ def get_response(user_input):
      # elif "mayank" in user_input:
      #    return college_data["mayank"]
     elif "hostel" in user_input:
-        return college_data["hostel "]
+        return college_data["hostel"]
     # elif "hostel fees" in user_input:
     #     return college_data["hostel fees"]
     elif "placement" in user_input:

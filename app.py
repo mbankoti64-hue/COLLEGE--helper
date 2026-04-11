@@ -51,7 +51,7 @@ if "welcome_shown" not in st.session_state:
 
 # -------------------------------
 # Data
--------------------------------
+
 college_data = {
     "about": """LOCATION" : Dehadun , uttrakhand \n
      ESTABLISHED: 1997 \n

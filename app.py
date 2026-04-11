@@ -54,12 +54,12 @@ if "welcome_shown" not in st.session_state:
 
 college_data = {
     "about": """Basic Overview: \n
-    LOCATION" : Dehadun , uttrakhand \n
+   📍LOCATION" : 🏔️Dehadun , uttrakhand \n
      ESTABLISHED: 1997 \n
      Founder: Prof.(Dr.)Kamal Ghanshala \n
      Type: Private Deemed University \n
-     Accreditation: NAAC A+ Grade \n
-     Approved by: UGC, AICTE""",
+     Accreditation: NAAC A+ Grade 💯\n
+     Approved by:🎓UGC, AICTE""",
     
     "courses": "B.Tech, BCA, MBA, BBA, B.Com, MCA TOTAL 100+ course (UG + PG + PHD + Diploma)" ,
     "fees": "B.Tech: ₹2.5–3.5 LPA \n BCA: ₹1.2–1.5  PER YEAR",
@@ -72,15 +72,41 @@ college_data = {
     SAI HOSTEL  \n
     hostel fees : 160000 These fees may vary for different hostels """, 
 
+    "Block":"""block/building 🏛:\n
+    Total Block 6 Major Block are their
+    1. KP.Nautiyal
+    2. Chanakya block
+    3. OLD MCA block
+    4. Main(admission)/Btech block
+    5. CS/IT  block (BCA and MCA classes are held in the CS/IT block
+    6. Paramedical block""",
+
+    "Bca 1 semester syllabus":"""Syllabus:\n
+    1. Computational Thinking and fundamentals of IT
+    2. Fundamentals of Python
+    3. Mathematics Foundation for AI
+    4. Professional English Skills
+    5. Principales and Practices of Managements 
+
+                   thes are major subjects""",
+
+    # "Bca 2 semester syllabus":"""Syllabus:\n
+    # 1. Computational Thinking and fundamentals of IT
+    # 2. Fundamentals of Python
+    # 3. Mathematics Foundation for AI
+    # 4. Professional English Skills
+    # 5. Principales and Practices of Managements 
+
+    #                thes are major subjects""",
      
     "faculty cabin":""" Staff room:\n
-    Mr. priyansh kumar  🧑‍🏫 Faculty Cabin (Paramedical 4th floor) \n
-    Mr. Mohit Amoli     🧑‍🏫 Faculty Cabin (Paramedical 2th floor) \n
-    Dr. Didvijay Tanwar 🧑‍🏫 Faculty Cabin (OLD MCA 2th floor) \n
-    Ms. Aayushi Rana    👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
-    Ms. Swati Pant      👩‍🏫 Faculty Cabin (Paramedical 4th floor) \n
-    Ms. shurti Saini    👩‍🏫 Faculty Cabin (Paramedical 2th floor)  \n
-    Mr. Gautam Badoni   🧑‍🏫 Faculty Cabin (Paramedical 2th floor)""",
+    Mr. priyansh kumar  🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Mr. Mohit Amoli     🧑‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Dr. Didvijay Tanwar 🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
+    Ms. Aayushi Rana    👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Ms. Swati Pant      👩‍🏫Faculty Cabin (Paramedical 4th floor)\n
+    Ms. shurti Saini    👩‍🏫Faculty Cabin (Paramedical 2th floor)\n
+    Mr. Gautam Badoni   🧑‍🏫Faculty Cabin (Paramedical 2th floor)""",
             
     
    
@@ -138,8 +164,10 @@ def get_response(user_input):
         return college_data["fees"]
     elif "course" in user_input:
         return college_data["courses"]
-     # elif "mayank" in user_input:
-     #    return college_data["mayank"]
+     elif "Block" in user_input:
+        return college_data["Block"]
+    elif "Bca 1 semester syllabus" in user_input:
+        return college_data["Bca 1 semester syllabus"]
     elif "hostel" in user_input:
         return college_data["hostel"]
     elif "faculty cabin" in user_input:
@@ -151,9 +179,9 @@ def get_response(user_input):
     elif "about" in user_input or "college" in user_input:
         return college_data["about"]
     elif "hi" in user_input or "hello" in user_input or "namste bhai jii" in user_input:
-        return "AA GYA GANDU HIIIIIIIIII KESA LGA MERA MAJAK "
+        return "AA GYA GANDU 🤣🤣🤣🤣"
     else:
-        return "❗  ARE BHOSDIKE IN QUESTION ME SE KUCH PUCH NA KYU APNI GAND MRA RAHA HAI BHOSDII Try asking about fees, courses, placement, hostel."
+        return "❗  ARE BHOSDIKE 😡😡😡😡😡IN QUESTION ME SE KUCH PUCH NA KYU APNI GAND MRA RAHA HAI BHOSDII Try asking about fees, courses, placement, hostel."
 
 # -------------------------------
 # Show old messages

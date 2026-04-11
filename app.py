@@ -84,8 +84,8 @@ college_data = {
     .BBA:    ₹2 Per Year""",
     
     "placement": """\n
-    Highest: ₹65+ LPA \n
-    Average Package: ₹5–8 LPA\n
+    Highest: ₹65+ LPA 
+    Average Package: ₹5–8 LPA
             Placement Rate: 90%+.""",
 
     "Facilities": """\n

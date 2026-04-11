@@ -81,7 +81,7 @@ college_data = {
     5. CS/IT  block (BCA and MCA classes are held in the CS/IT block
     6. Paramedical block""",
 
-    "Bca syllabus":"""Syllabus:\n
+    "syllabus":"""Syllabus:\n
     1. Computational Thinking and fundamentals of IT
     2. Fundamentals of Python
     3. Mathematics Foundation for AI
@@ -99,7 +99,7 @@ college_data = {
 
     #                thes are major subjects""",
      
-    "faculty cabin":""" Staff room:\n
+    "cabin":""" Staff room:\n
     Mr. priyansh kumar       🧑‍🏫Faculty Cabin (Paramedical 4th floor)\n
     Mr. Mohit Amoli          🧑‍🏫 Faculty Cabin (Paramedical 2th floor)\n
     Dr. Didvijay Tanwar      🧑‍🏫Faculty Cabin (OLD MCA 2th floor)\n
@@ -130,7 +130,7 @@ college_data = {
 st.sidebar.title("📌 Quick Menu")
 option = st.sidebar.selectbox(
     "Select Option",
-    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty"]
+    ["Chat Mode", "About", "Courses", "Fees", "Placement", "Hostel", "Faculty","Syllabus","Cabin"]
 )
 
 if st.sidebar.button("🗑 Clear Chat"):
@@ -166,12 +166,12 @@ def get_response(user_input):
         return college_data["courses"]
     elif "Block" in user_input:
         return college_data["Block"]
-    elif "Bca syllabus" in user_input:
-        return college_data["Bca 1 semester syllabus"]
+    elif "syllabus" in user_input:
+        return college_data["syllabus"]
     elif "hostel" in user_input:
         return college_data["hostel"]
-    elif "faculty cabin" in user_input:
-        return college_data["faculty cabin"]
+    elif "cabin" in user_input:
+        return college_data["fcabin"]
     elif "placement" in user_input:
         return college_data["placement"]
     elif "faculty" in user_input:

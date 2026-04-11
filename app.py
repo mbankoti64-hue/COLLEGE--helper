@@ -117,9 +117,9 @@ user_input = st.chat_input("Ask something...")
 def get_response(user_input):
     user_input = user_input.lower()
 
-   if "fee" in user_input:
+   if "fees" in user_input:
         return college_data["fees"]
-    elif "course" in user_input:
+    elif "courses" in user_input:
         return college_data["courses"]
     elif "hostel" in user_input:
         return college_data["hostel"]

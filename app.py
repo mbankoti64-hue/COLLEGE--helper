@@ -9,6 +9,13 @@ st.set_page_config(page_title="Graphic Era Smart Chatbot", page_icon="🎓", lay
 # -------------------------------
 # Custom CSS
 # -------------------------------
+import streamlit as st
+
+st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
+
+# -------------------------------
+# SINGLE CSS BLOCK (ALL STYLES HERE)
+# -------------------------------
 st.markdown("""
 <style>
 .stApp {
@@ -17,7 +24,7 @@ st.markdown("""
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     color: #4CAF50;
 }
 
@@ -25,35 +32,22 @@ h1 {
     border-radius: 15px;
     padding: 12px;
     margin: 8px;
-    backround-color: #1e293b;
+    background-color: #1e293b;
 }
-</style>
-""", unsafe_allow_html=True)
 
 section[data-testid="stSidebar"] {
     background-color: #020617;
 }
-</style>
-""", unsafe_allow_html=True)
 
-
-
-# Header (Clean & Working ✅)
-# -------------------------------
-
-
-# -------------------------------
-# Header FINAL (Perfect Position 🔥)
-# -------------------------------
-
-st.markdown("""
-<style>
 .block-container {
     padding-top: 2rem;
 }
 </style>
 """, unsafe_allow_html=True)
 
+# -------------------------------
+# HEADER
+# -------------------------------
 col1, col2 = st.columns([1, 4])
 
 with col1:
@@ -61,7 +55,7 @@ with col1:
 
 with col2:
     st.markdown("""
-    <h1 style='color:#22c55e; margin:0; padding:0;'>
+    <h1 style='margin:0; padding:0; color:#22c55e;'>
     Graphic Era Smart Assistant
     </h1>
 
@@ -69,8 +63,6 @@ with col2:
     Your 24/7 College Help Partner 🤖
     </p>
     """, unsafe_allow_html=True)
-
-
 
 
 # -------------- -----------------

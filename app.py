@@ -27,9 +27,9 @@ h1 {
 /* Paragraph / normal text */
 p {
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     text-shadow: 0 0 6px rgba(255,255,255,0.5);
 }
 

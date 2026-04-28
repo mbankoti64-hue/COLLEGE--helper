@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 
@@ -296,7 +297,7 @@ def type_effect(text):
     for char in text:
         typed += char
         placeholder.markdown(typed)
-        time.sleep(0.01)
+        time.sleep(0.02)
 
 # -------------------------------
 # New Message
@@ -312,4 +313,4 @@ if user_input:
     st.session_state.messages.append({"role": "assistant", "content": response})
 
     with st.chat_message("assistant"):
-        type_effect(response)
+        st.info(response)

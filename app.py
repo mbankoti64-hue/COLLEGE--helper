@@ -106,7 +106,7 @@ college_data = {
      Founder: Prof.(Dr.)Kamal Ghanshala\n
      Type: Private Deemed University\n
      Accreditation: NAAC A+💯 Grade\n
-     Approved by:🎓UGC, AICTE
+     Approved by:🎓UGC, AICTE"""}
     st.info(college_data["about"]),
    
     "courses": """\n

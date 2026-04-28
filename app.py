@@ -92,7 +92,7 @@ with col2:
 # -------------------------------
 if "welcome_shown" not in st.session_state:
     st.session_state.welcome_shown = True
-    st.info("👋 Welcome! Ask 
+    # st.info("👋 Welcome! Ask 
 
     st.info("👋 Welcome! Ask me anything about Graphic Era University.")
 

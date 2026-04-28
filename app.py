@@ -62,32 +62,29 @@ section[data-testid="stSidebar"] {
 # Header (Exact Alignment 🔥)
 # -------------------------------
 
-# top space हटाने के लिए
-st.markdown("<div style='margin-top:-70px'></div>", unsafe_allow_html=True)
+# -------------------------------
+# Header FINAL (Perfect Position 🔥)
+# -------------------------------
+
+st.markdown("<div style='margin-top:-80px'></div>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 5])
 
 with col1:
-    st.markdown("""
-    <div style="display:flex; align-items:flex-start;">
-        <img src="logo.jpg.jpeg" width="170" style="margin-top:-10px;">
-    </div>
-    """, unsafe_allow_html=True)
+    st.image("logo.jpg.jpeg", width=170)
 
 with col2:
     st.markdown("""
-    <div style="display:flex; flex-direction:column; justify-content:flex-start;">
+    <h1 style='color:#22c55e; margin:0; padding:0;'>
+    Graphic Era Smart Assistant
+    </h1>
 
-        <h1 style='color:#22c55e; margin:0; padding:0;'>
-        Graphic Era Smart Assistant
-        </h1>
-
-        <p style='color:#cbd5f5; margin-top:5px;'>
-        Your 24/7 College Help Partner 🤖
-        </p>
-
-    </div>
+    <p style='color:#cbd5f5; margin-top:5px;'>
+    Your 24/7 College Help Partner 🤖
+    </p>
     """, unsafe_allow_html=True)
+
+
 
 # -------------- -----------------
 # Welcome Message (only once)

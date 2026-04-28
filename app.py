@@ -31,7 +31,7 @@ p {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    text-shadow: 0 0 6px rgba(255,255,255,0.5);
+    text-shadow: 0 0 3px rgba(255,255,255,0.5);
 }
 
 /* 🔵 GLASS CHAT BOX (FIXED) */
@@ -61,9 +61,9 @@ p {
     color: #ffffff;
 
     text-shadow: 
-        0 0 6px rgba(255,255,255,0.8),
-        0 0 12px rgba(59,130,246,0.8),
-        0 0 18px rgba(168,85,247,0.6);
+        0 0 3px rgba(255,255,255,0.4),
+        0 0 6px rgba(59,130,246,0.3),
+       
 }
 
 /* Sidebar */

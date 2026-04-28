@@ -65,14 +65,7 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 # Header FINAL (Perfect Position 🔥)
 # -------------------------------
-st.markdown("""
-<style>
-.block-container {
-    padding-top: 0rem;
-}
-</style>
-""", unsafe_allow_html=True)
-st.markdown("<div style='margin-top:-80px'></div>", unsafe_allow_html=True)
+st.markdown("<div style='margin-top:-20px;'></div>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 5])
 

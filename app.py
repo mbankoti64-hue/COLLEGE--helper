@@ -38,7 +38,7 @@ p {
     border-radius: 15px;
     padding: 12px;
     margin: 8px;
-    background-color: rgba(30, 64, 175, 0.85);
+    background-color:#1e3a8a;
     border: 1px solid #3b82f6;
     box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
     color: #ffffff;

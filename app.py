@@ -37,12 +37,14 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 # Header
 # -------------------------------
+st.image("logo.jpg", width=120)
+
 st.markdown("""
-<h1>🎓 Graphic Era Smart Assistant</h1>
+<h1 style='text-align:center; color:#22c55e;'>Graphic Era Smart Assistant</h1>
 <p style='text-align:center;'>Your 24/7 College Help Partner 🤖</p>
 """, unsafe_allow_html=True)
 
-# -------------------------------
+# -------------- -----------------
 # Welcome Message (only once)
 # -------------------------------
 if "welcome_shown" not in st.session_state:

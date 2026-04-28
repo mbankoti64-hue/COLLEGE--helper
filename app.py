@@ -297,7 +297,7 @@ def type_effect(text):
     for char in text:
         typed += char
         placeholder.markdown(typed)
-        time.sleep(0.02)
+        time.sleep(0.008)
 
 # -------------------------------
 # New Message
@@ -312,4 +312,4 @@ if user_input:
 
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-    st.info(response)
+    type_effect(response)

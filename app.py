@@ -81,15 +81,17 @@ with col1:
 
 with col2:
     st.markdown("""
-    <h1 style='color:#22c55e; margin:0; padding:0;'>
-Graphic Era Smart Assistant
-</h1>
+    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+        
+        <h1 style="color:#22c55e; margin:0; text-align:center;">
+            Graphic Era Smart Assistant
+        </h1>
+        
+        <p style="color:#cbd5f5; margin-top:5px; text-align:center;">
+            Your 24/7 College Help Partner 😊
+        </p>
 
-<p style='color:#cbd5f5; margin-top:10px;'>
-Your 24/7 College Help Partner 😊
-</p>
- 
-   
+    </div>
     """, unsafe_allow_html=True)
 
 

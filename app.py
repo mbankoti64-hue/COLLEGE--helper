@@ -40,7 +40,10 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 # Header (FINAL FIX ✅)
 # -------------------------------
-st.image("https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Graphic_Era_University_logo.png/220px-Graphic_Era_University_logo.png", width=120)
+# -------------------------------
+# Header (FINAL ✅)
+# -------------------------------
+st.image("logo.jpg.jpeg", width=120)
 
 st.markdown("""
 <h1 style='text-align:center; color:#22c55e;'>Graphic Era Smart Assistant</h1>

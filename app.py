@@ -34,20 +34,27 @@ section[data-testid="stSidebar"] {
 </style>
 """, unsafe_allow_html=True)
 
-# -------------------------------
-# Header
-# -------------------------------
-# -------------------------------
-# Header (FINAL FIX ✅)
-# -------------------------------
-# -------------------------------
+
 # Header (FINAL ✅)
 # -------------------------------
-st.image("logo.jpg.jpeg", width=120)
+# -------------------------------
+# Header (Updated UI 🔥)
+# -------------------------------
 
 st.markdown("""
-<h1 style='text-align:center; color:#22c55e;'>Graphic Era Smart Assistant</h1>
-<p style='text-align:center;'>Your 24/7 College Help Partner 🤖</p>
+<div style="text-align:center; margin-top:-30px;">
+
+    <img src="logo.jpg.jpeg" width="180" style="border-radius:20px; margin-bottom:10px;">
+
+    <h1 style="color:#22c55e; margin-top:10px;">
+        Graphic Era Smart Assistant
+    </h1>
+
+    <p style="color:#cbd5f5; font-size:16px;">
+        Your 24/7 College Help Partner 🤖
+    </p>
+
+</div>
 """, unsafe_allow_html=True)
 
 # -------------- -----------------

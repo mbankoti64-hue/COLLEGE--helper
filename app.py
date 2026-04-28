@@ -66,6 +66,8 @@ section[data-testid="stSidebar"] {
 # Header FINAL (Perfect Position 🔥)
 # -------------------------------
 
+
+   
 st.markdown("""
 <div style="
     display:flex;
@@ -89,7 +91,6 @@ st.markdown("""
 
 </div>
 """, unsafe_allow_html=True)
-
 
 
 

@@ -15,9 +15,6 @@ st.markdown("""
     background: linear-gradient(135deg, #0f172a, #1e293b, #0ea5e9);
     color: white;
 }
-</style>
-""", unsafe_allow_html=True)
-
 
 h1 {
     text-align: center;
@@ -28,8 +25,10 @@ h1 {
     border-radius: 15px;
     padding: 12px;
     margin: 8px;
-    background-color: #1e293b;
+    backround-color: #1e293b;
 }
+</style>
+""", unsafe_allow_html=True)
 
 section[data-testid="stSidebar"] {
     background-color: #020617;

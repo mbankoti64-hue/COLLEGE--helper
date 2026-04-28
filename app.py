@@ -1,4 +1,5 @@
 import streamlit as st
+
 import time
 
 st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
@@ -34,16 +35,16 @@ p {
     text-shadow: 0 0 3px rgba(255,255,255,0.5);
 }
 
-/* 🔵 GLASS CHAT BOX (same as before) */
+/* 🔵 GLASS CHAT BOX (FIXED) */
 [data-testid="stChatMessage"] {
     border-radius: 15px;
     padding: 12px;
     margin: 8px;
 
-    background: rgba(59, 130, 246, 0.22);
-    backdrop-filter: blur(8px);
+    background: rgba(59, 130, 246, 0.22);   /* 🔥 transparent blue */
+    backdrop-filter: blur(8px);             /* glass effect */
 
-    border: 1px solid rgba(59,130,246,0.9);
+    border: 1px solid rgba(59,130,246,0.9); /* glowing line */
 
     box-shadow: 
         0 0 15px rgba(59, 130, 246, 0.6),
@@ -52,14 +53,51 @@ p {
     color: #ffffff;
 }
 
-/* 🔥 OUTPUT TEXT */
+/* 🔥 OUTPUT TEXT (Glow + Bold) */
 [data-testid="stChatMessage"] p,
 [data-testid="stChatMessage"] span,
 [data-testid="stChatMessage"] div {
-    font-weight: 700;
+    font-weight: 700;   /* extra bold */
+
     color: #ffffff;
 
-    text
+    text-shadow: 
+        0 0 3px rgba(255,255,255,0.4),
+        0 0 6px rgba(59,130,246,0.3),
+       
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #0f0c29;
+}
+
+/* Top spacing */
+.block-container {
+    padding-top: 3rem;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+# -------------------------------
+# HEADER
+# -------------------------------
+col1, col2 = st.columns([1, 4])
+
+with col1:
+    st.image("logo.jpg.jpeg", width=170)
+
+with col2:
+    st.markdown("""
+    <h1 style='margin:0; padding:0;'>
+    Graphic Era Smart Assistant
+    </h1>
+
+    <p style='margin-top:5px;'>
+    Your 24/7 College Help Partner 🤖
+    </p>
+    """, unsafe_allow_html=True)
 
 # -------------------------------
 # WELCOME

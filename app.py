@@ -39,21 +39,21 @@ section[data-testid="stSidebar"] {
 # Header (Clean & Working ✅)
 # -------------------------------
 
-# col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([1, 3])
 
-# with col1:
-#     st.image("logo.jpg.jpeg", width=120)
+with col1:
+    st.image("logo.jpg.jpeg", width=120)
 
-# with col2:
-#     st.markdown("""
-#     <h1 style='color:#22c55e; margin-top:20px;'>
-#     Graphic Era Smart Assistant
-#     </h1>
+with col2:
+    st.markdown("""
+    <h1 style='color:#22c55e; margin-top:20px;'>
+    Graphic Era Smart Assistant
+    </h1>
     
-#     <p style='color:#cbd5f5; margin-top:-10px;'>
-#     Your 24/7 College Help Partner 🤖
-#     </p>
-    # """, unsafe_allow_html=True)
+    <p style='color:#cbd5f5; margin-top:-10px;'>
+    Your 24/7 College Help Partner 🤖
+    </p>
+    """, unsafe_allow_html=True)
 # -------------------------------
 # Header (Top Touch + Bigger Logo 🔥)
 # -------------------------------
@@ -67,31 +67,7 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 
 
-   
-st.markdown("""
-<div style="
-    display:flex;
-    align-items:center;
-    gap:20px;
-">
-
-    <!-- LOGO -->
-    <img src="logo.jpg.jpeg" width="150" style="border-radius:15px;">
-
-    <!-- TEXT -->
-    <div>
-        <h1 style="color:#22c55e; margin:0;">
-            Graphic Era Smart Assistant
-        </h1>
-
-        <p style="color:#cbd5f5; margin-top:5px;">
-            Your 24/7 College Help Partner 😊
-        </p>
-    </div>
-
-</div>
-""", unsafe_allow_html=True)
-
+ 
 
 
 

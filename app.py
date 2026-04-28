@@ -33,14 +33,21 @@ p {
     text-shadow: 0 0 6px rgba(255,255,255,0.5);
 }
 
-/* Chat messages box */
+/* 🔵 GLASS CHAT BOX (FIXED) */
 [data-testid="stChatMessage"] {
     border-radius: 15px;
     padding: 12px;
     margin: 8px;
-    background-color:#1e3a8a;
-    border: 1px solid #3b82f6;
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+
+    background: rgba(59, 130, 246, 0.22);   /* 🔥 transparent blue */
+    backdrop-filter: blur(8px);             /* glass effect */
+
+    border: 1px solid rgba(59,130,246,0.9); /* glowing line */
+
+    box-shadow: 
+        0 0 15px rgba(59, 130, 246, 0.6),
+        inset 0 0 10px rgba(59,130,246,0.3);
+
     color: #ffffff;
 }
 
@@ -48,11 +55,14 @@ p {
 [data-testid="stChatMessage"] p,
 [data-testid="stChatMessage"] span,
 [data-testid="stChatMessage"] div {
-    font-weight: 600;
-    color: #F8FAFF;
+    font-weight: 700;   /* extra bold */
+
+    color: #ffffff;
+
     text-shadow: 
-        0 0 6px rgba(255,255,255,0.6),
-        0 0 12px rgba(168,85,247,0.6);
+        0 0 6px rgba(255,255,255,0.8),
+        0 0 12px rgba(59,130,246,0.8),
+        0 0 18px rgba(168,85,247,0.6);
 }
 
 /* Sidebar */

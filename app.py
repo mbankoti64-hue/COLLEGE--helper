@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 
 # -------------------------------
-# CSS (FINAL PERFECT UI)
+# SINGLE CSS BLOCK (ALL STYLES HERE)
 # -------------------------------
 st.markdown("""
 <style>
@@ -24,7 +24,7 @@ h1 {
     text-shadow: 0 0 12px #a855f7;
 }
 
-/* Paragraph */
+/* Paragraph / normal text */
 p {
     color: #ffffff;
     font-size: 16px;
@@ -33,33 +33,26 @@ p {
     text-shadow: 0 0 6px rgba(255,255,255,0.5);
 }
 
-/* 🔵 GLASS BLUE BOX (MAIN FIX) */
-[data-testid="stChatMessage"],
-[data-testid="stSuccess"],
-[data-testid="stAlert"] {
-
-    border-radius: 12px;
+/* Chat messages box */
+[data-testid="stChatMessage"] {
+    border-radius: 15px;
     padding: 12px;
     margin: 8px;
-
-    background: rgba(59, 130, 246, 0.22) !important;  /* transparent */
-    backdrop-filter: blur(8px);
-
-    border: 1px solid rgba(59, 130, 246, 0.9);
-
-    box-shadow: 
-        0 0 10px rgba(59,130,246,0.6),
-        inset 0 0 10px rgba(59,130,246,0.3);
-
-    color: #ffffff !important;
-    font-weight: 600;
+    background-color:#1e3a8a;
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+    color: #ffffff;
 }
 
-/* Text inside */
-[data-testid="stChatMessage"] *,
-[data-testid="stSuccess"] *,
-[data-testid="stAlert"] * {
-    color: #ffffff !important;
+/* 🔥 OUTPUT TEXT (Glow + Bold) */
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span,
+[data-testid="stChatMessage"] div {
+    font-weight: 600;
+    color: #F8FAFF;
+    text-shadow: 
+        0 0 6px rgba(255,255,255,0.6),
+        0 0 12px rgba(168,85,247,0.6);
 }
 
 /* Sidebar */

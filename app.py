@@ -89,9 +89,9 @@ with col2:
     </p>
     """, unsafe_allow_html=True)
 
--------------- -----------------
-Welcome Message (only once)
--------------------------------
+# -------------- -----------------
+# Welcome Message (only once)
+# -------------------------------
 if "welcome_shown" not in st.session_state:
     st.session_state.welcome_shown = True
     st.info("👋 Welcome! Ask me anything about Graphic Era University.")

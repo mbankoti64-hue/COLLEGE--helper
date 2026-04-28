@@ -10,10 +10,11 @@ st.markdown("""
 
 /* Background */
 .stApp {
-   background: 
-    linear-gradient(rgba(15,12,41,0.85), rgba(36,36,62,0.9)),
-    url("https://images.unsplash.com/photo-1510511459019-5dda7724fd87") no-repeat center center fixed;
-background-size: cover;
+    background:
+        linear-gradient(rgba(10,10,30,0.85), rgba(20,20,50,0.9)),
+        url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
 }
 
 /* Heading */

@@ -82,11 +82,12 @@ with col1:
 with col2:
     st.markdown("""
     <h1 style='color:#22c55e; margin:0; padding:0;'>
-    Graphic Era Smart Assistant
-    </h1>
-    <p style='color:#cbd5f5; margin-top:-10px;'>
-    Your 24/7 College Help Partner 🤖
-    </p>
+Graphic Era Smart Assistant
+</h1>
+
+<p style='color:#cbd5f5; margin-top:10px;'>
+Your 24/7 College Help Partner 😊
+</p>
  
    
     """, unsafe_allow_html=True)

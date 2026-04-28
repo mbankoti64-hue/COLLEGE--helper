@@ -59,7 +59,7 @@ with col2:
     Graphic Era Smart Assistant
     </h1>
 
-    <p style='color:#cbd5f5; margin-top:5px;'>
+    <p style='color:#E2E8F0; margin-top:5px;'>
     Your 24/7 College Help Partner 🤖
     </p>
     """, unsafe_allow_html=True)

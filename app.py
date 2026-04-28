@@ -4,70 +4,76 @@ import time
 st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 
 # -------------------------------
-# CSS
+# SINGLE CSS BLOCK (ALL STYLES HERE)
 # -------------------------------
 st.markdown("""
 <style>
 
-/* 🔥 FULL SCREEN BACKGROUND */
+/* Background */
 .stApp {
     background:
         linear-gradient(rgba(10,10,30,0.85), rgba(20,20,50,0.9)),
         url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    min-height: 100vh;
     color: #ffffff;
 }
 
-/* 🔥 CONTENT CENTER + WIDTH CONTROL */
-.block-container {
-    max-width: 1200px;   /* 👈 screen ke beech me rakhega */
-    margin: auto;
-    padding-top: 2rem;
-}
-
-/* 🔥 HEADER */
+/* Heading */
 h1 {
+    text-align: left;
     color: #a855f7;
     text-shadow: 0 0 12px #a855f7;
 }
 
-/* 🔥 TEXT */
+/* Paragraph / normal text */
 p {
+    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 3px rgba(255,255,255,0.5);
+}
+
+/* 🔵 GLASS CHAT BOX (FIXED) */
+[data-testid="stChatMessage"] {
+    border-radius: 15px;
+    padding: 12px;
+    margin: 8px;
+
+    background: rgba(59, 130, 246, 0.22);   /* 🔥 transparent blue */
+    backdrop-filter: blur(8px);             /* glass effect */
+
+    border: 1px solid rgba(59,130,246,0.9); /* glowing line */
+
+    box-shadow: 
+        0 0 15px rgba(59, 130, 246, 0.6),
+        inset 0 0 10px rgba(59,130,246,0.3);
+
     color: #ffffff;
 }
 
-/* 🔵 GLASS CHAT BOX */
-[data-testid="stChatMessage"] {
-    border-radius: 15px;
-    padding: 14px;
-    margin: 10px;
+/* 🔥 OUTPUT TEXT (Glow + Bold) */
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span,
+[data-testid="stChatMessage"] div {
+    font-weight: 700;   /* extra bold */
 
-    background: rgba(59, 130, 246, 0.22);
-    backdrop-filter: blur(8px);
+    color: #ffffff;
 
-    border: 1px solid rgba(59,130,246,0.9);
-
-    box-shadow: 
-        0 0 10px rgba(59, 130, 246, 0.4),
-        inset 0 0 6px rgba(59,130,246,0.2);
-
-    color: white;
-}
-
-/* 🔥 TEXT STYLE */
-[data-testid="stChatMessage"] p {
-    font-size: 18px;
-    font-weight: 600;
-    text-shadow: 0 0 2px rgba(255,255,255,0.3);
+    text-shadow: 
+        0 0 3px rgba(255,255,255,0.4),
+        0 0 6px rgba(59,130,246,0.3),
+       
 }
 
 /* Sidebar */
 section[data-testid="stSidebar"] {
     background-color: #0f0c29;
+}
+
+/* Top spacing */
+.block-container {
+    padding-top: 3rem;
 }
 
 </style>
@@ -83,18 +89,14 @@ with col1:
 
 with col2:
     st.markdown("""
-    <h1 style='margin:0;'>Graphic Era Smart Assistant</h1>
-    <p>Your 24/7 College Help Partner 🤖</p>
+    <h1 style='margin:0; padding:0;'>
+    Graphic Era Smart Assistant
+    </h1>
+
+    <p style='margin-top:5px;'>
+    Your 24/7 College Help Partner 🤖
+    </p>
     """, unsafe_allow_html=True)
-
-# -------------------------------
-# SAMPLE CHAT INPUT (same as before)
-# -------------------------------
-user_input = st.chat_input("Ask something...")
-
-if user_input:
-    st.chat_message("user").markdown(user_input)
-    st.chat_message("assistant").markdown("This is a demo response...")
 
 # -------------------------------
 # WELCOME

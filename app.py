@@ -17,7 +17,7 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-}
+
 
 h1 {
     text-align: center;

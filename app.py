@@ -9,71 +9,86 @@ st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 st.markdown("""
 <style>
 
-/* Background */
+/* 🔥 FULL SCREEN + BACKGROUND */
 .stApp {
     background:
         linear-gradient(rgba(10,10,30,0.85), rgba(20,20,50,0.9)),
         url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
+    min-height: 100vh;
 }
 
-/* Heading */
+/* 🔥 REMOVE SIDE LIMIT (FULL WIDTH) */
+.block-container {
+    max-width: 100% !important;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* 🔥 HEADING */
 h1 {
     text-align: left;
     color: #a855f7;
     text-shadow: 0 0 12px #a855f7;
 }
 
-/* Paragraph / normal text */
+/* 🔥 TEXT BIGGER */
 p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;   /* 👈 size bada */
     font-weight: 700;
     letter-spacing: 0.5px;
     text-shadow: 0 0 3px rgba(255,255,255,0.5);
 }
 
-/* 🔵 GLASS CHAT BOX (FIXED) */
+/* 🔵 GLASS CHAT BOX (WIDE + CLEAN) */
 [data-testid="stChatMessage"] {
     border-radius: 15px;
-    padding: 12px;
-    margin: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 100% !important;
 
-    background: rgba(59, 130, 246, 0.22);   /* 🔥 transparent blue */
-    backdrop-filter: blur(8px);             /* glass effect */
+    background: rgba(59, 130, 246, 0.22);
+    backdrop-filter: blur(8px);
 
-    border: 1px solid rgba(59,130,246,0.9); /* glowing line */
+    border: 1px solid rgba(59,130,246,0.9);
 
     box-shadow: 
-        0 0 15px rgba(59, 130, 246, 0.6),
-        inset 0 0 10px rgba(59,130,246,0.3);
+        0 0 12px rgba(59, 130, 246, 0.4),
+        inset 0 0 6px rgba(59,130,246,0.2);
 
     color: #ffffff;
 }
 
-/* 🔥 OUTPUT TEXT (Glow + Bold) */
+/* 🔥 OUTPUT TEXT BIG + CLEAN */
 [data-testid="stChatMessage"] p,
 [data-testid="stChatMessage"] span,
 [data-testid="stChatMessage"] div {
-    font-weight: 700;   /* extra bold */
 
+    font-size: 20px;   /* 👈 bigger text */
+    font-weight: 700;
     color: #ffffff;
 
     text-shadow: 
-        0 0 3px rgba(255,255,255,0.4),
-        0 0 6px rgba(59,130,246,0.3),
-       
+        0 0 2px rgba(255,255,255,0.3),
+        0 0 4px rgba(59,130,246,0.3);
 }
 
-/* Sidebar */
+/* 🔥 SIDEBAR */
 section[data-testid="stSidebar"] {
     background-color: #0f0c29;
 }
 
-/* Top spacing */
-.block-container {
-    padding-top: 3rem;
+/* 🔥 CHAT INPUT FULL WIDTH */
+.stChatInputContainer {
+    width: 100% !important;
+}
+
+/* 🔥 HEIGHT STRETCH */
+[data-testid="stVerticalBlock"] {
+    min-height: 80vh;
 }
 
 </style>
@@ -82,18 +97,18 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 # HEADER
 # -------------------------------
-col1, col2 = st.columns([1, 4])
+col1, col2 = st.columns([1, 5])   # 👈 space aur bada kiya
 
 with col1:
-    st.image("logo.jpg.jpeg", width=170)
+    st.image("logo.jpg.jpeg", width=190)   # 👈 logo bada
 
 with col2:
     st.markdown("""
-    <h1 style='margin:0; padding:0;'>
+    <h1 style='margin:0; padding:0; font-size:36px;'>
     Graphic Era Smart Assistant
     </h1>
 
-    <p style='margin-top:5px;'>
+    <p style='margin-top:8px; font-size:20px;'>
     Your 24/7 College Help Partner 🤖
     </p>
     """, unsafe_allow_html=True)

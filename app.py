@@ -232,7 +232,7 @@ if "messages" not in st.session_state:
 # Sidebar Output
 # -------------------------------
 if option != "Chat Mode":
-    st.success(college_data[option.lower()])
+    st.info(college_data[option.lower()])
 
 # -------------------------------
 # Chat Input

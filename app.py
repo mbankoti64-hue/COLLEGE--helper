@@ -19,7 +19,7 @@ st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 st.markdown("""
 <style>
 .stApp {
-    background: linear-gradient(135deg, #0f172a, #1e293b, #0ea5e9);
+    background: linear-gradient(135deg, #064e3b, #022c22);
     color: white;
 }
 

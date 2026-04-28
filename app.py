@@ -42,9 +42,9 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 
 st.markdown("""
-<div style="text-align:center; margin-top:-30px;">
+<div style="text-align:center; margin-top:-40px;">
 
-    <img src="logo.jpg.jpeg" width="180" style="border-radius:20px; margin-bottom:10px;">
+    <img src="logo.jpg.jpeg" width="200" style="border-radius:20px; margin-bottom:10px;">
 
     <h1 style="color:#22c55e; margin-top:10px;">
         Graphic Era Smart Assistant

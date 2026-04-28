@@ -40,19 +40,32 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 
 
+# -------------------------------
+# Header FINAL (Perfect Position 🔥)
+# -------------------------------
+
+st.markdown("""
+<style>
+.block-container {
+    padding-top: 2rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
+col1, col2 = st.columns([1, 4])
+
+with col1:
+    st.image("logo.jpg.jpeg", width=170)
+
 with col2:
     st.markdown("""
-    <div style="display:flex; flex-direction:column; align-items:flex-start;">
+    <h1 style='color:#22c55e; margin:0; padding:0;'>
+    Graphic Era Smart Assistant
+    </h1>
 
-        <h1 style='color:#22c55e; margin:0; padding:0;'>
-        Graphic Era Smart Assistant
-        </h1>
-
-        <p style='color:#cbd5f5; margin-top:5px; margin-left:5px;'>
-        Your 24/7 College Help Partner 🤖
-        </p>
-
-    </div>
+    <p style='color:#cbd5f5; margin-top:5px;'>
+    Your 24/7 College Help Partner 🤖
+    </p>
     """, unsafe_allow_html=True)
 
 

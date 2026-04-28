@@ -37,19 +37,14 @@ section[data-testid="stSidebar"] {
 # -------------------------------
 # Header
 # -------------------------------
-import base64
+# -------------------------------
+# Header (FINAL FIX ✅)
+# -------------------------------
+st.image("https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Graphic_Era_University_logo.png/220px-Graphic_Era_University_logo.png", width=120)
 
-def get_base64():
-    with open("logo.jpg", "rb") as f:
-        return base64.b64encode(f.read()).decode()
-
-img = get_base64()
-
-st.markdown(f"""
-<div style="text-align:center;">
-    <img src="data:image/jpg;base64,{img}" width="120">
-    <h1 style="color:#22c55e;">Graphic Era Smart Assistant</h1>
-</div>
+st.markdown("""
+<h1 style='text-align:center; color:#22c55e;'>Graphic Era Smart Assistant</h1>
+<p style='text-align:center;'>Your 24/7 College Help Partner 🤖</p>
 """, unsafe_allow_html=True)
 
 # -------------- -----------------

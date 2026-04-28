@@ -12,8 +12,11 @@ st.set_page_config(page_title="Graphic Era Smart Chatbot", page_icon="🎓", lay
 st.markdown("""
 <style>
 .stApp {
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+    background: linear-gradient(135deg, #0f172a, #1e293b, #0ea5e9);
     color: white;
+}
+</style>
+""", unsafe_allow_html=True)
 }
 
 h1 {

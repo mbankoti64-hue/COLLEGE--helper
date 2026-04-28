@@ -16,53 +16,37 @@ st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 # -------------------------------
 # SINGLE CSS BLOCK (ALL STYLES HERE)
 # -------------------------------
+# -------------------------------
+# PURPLE INFO CARD (Courses / Fees etc.)
+# -------------------------------
 st.markdown("""
-<style>
-.stApp {
-    background: linear-gradient(135deg, #064e3b, #022c22);
-    color: white;
-}
+<div style='
+background: linear-gradient(135deg, #7c3aed, #a855f7);
+padding: 18px;
+border-radius: 15px;
+color: #F8FAFC;
+box-shadow: 0 0 25px rgba(168,85,247,0.4);
+'>
 
-h1 {
-    text-align: left;
-    color: #4CAF50;
-}
+<p style='font-size:16px; font-weight:500; color:#E0E7FF;'>
+🎓 B.Tech: <span style="color:#FFFFFF; font-weight:600;">₹2.5–3.5 Per Year</span>
+</p>
 
-[data-testid="stChatMessage"] {
-    border-radius: 15px;
-    padding: 12px;
-    margin: 8px;
-    background-color: #1e293b;
-}
+<p style='font-size:16px; font-weight:500; color:#E0E7FF;'>
+💻 BCA: <span style="color:#FFFFFF; font-weight:600;">₹1.2–1.5 Per Year</span>
+</p>
 
-section[data-testid="stSidebar"] {
-    background-color: #020617;
-}
+<p style='font-size:16px; font-weight:500; color:#E0E7FF;'>
+📊 MBA: <span style="color:#FFFFFF; font-weight:600;">₹2–3 Per Year</span>
+</p>
 
-.block-container {
-    padding-top: 3rem;
-}
-</style>
+<p style='font-size:16px; font-weight:500; color:#E0E7FF;'>
+📈 BBA: <span style="color:#FFFFFF; font-weight:600;">₹2 Per Year</span>
+</p>
+
+</div>
 """, unsafe_allow_html=True)
 
-# -------------------------------
-# HEADER
-# -------------------------------
-col1, col2 = st.columns([1, 4])
-
-with col1:
-    st.image("logo.jpg.jpeg", width=170)
-
-with col2:
-    st.markdown("""
-    <h1 style='margin:0; padding:0; color:#22c55e;'>
-    Graphic Era Smart Assistant
-    </h1>
-
-   <p style='color:#E2E8F0; margin-top:5px; text-shadow: 0 0 8px rgba(255,255,255,0.6);'>
-    Your 24/7 College Help Partner 🤖
-    </p>
-    """, unsafe_allow_html=True)
 
 
 # -------------- -----------------

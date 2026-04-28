@@ -35,43 +35,43 @@ section[data-testid="stSidebar"] {
 """, unsafe_allow_html=True)
 
 
-# Header (FINAL ✅)
-# -------------------------------
-# -------------------------------
-# Header (Updated UI 🔥)
-# -------------------------------
 
-# -------------------------------
 # Header (Clean & Working ✅)
 # -------------------------------
 
-# st.image("logo.jpg.jpeg", width=200)
+# col1, col2 = st.columns([1, 3])
 
-# st.markdown("""
-# <h1 style='text-align:center; color:#22c55e; margin-top:-20px;'>
-# Graphic Era Smart Assistant
-# </h1>
+# with col1:
+#     st.image("logo.jpg.jpeg", width=120)
 
-# <p style='text-align:center; color:#cbd5f5;'>
-# Your 24/7 College Help Partner 🤖
-# </p>
-# """, unsafe_allow_html=True)
+# with col2:
+#     st.markdown("""
+#     <h1 style='color:#22c55e; margin-top:20px;'>
+#     Graphic Era Smart Assistant
+#     </h1>
+    
+#     <p style='color:#cbd5f5; margin-top:-10px;'>
+#     Your 24/7 College Help Partner 🤖
+#     </p>
+    # """, unsafe_allow_html=True)
 # -------------------------------
-# Header (Logo + Title Same Line 🔥)
+# Header (Top Touch + Bigger Logo 🔥)
 # -------------------------------
 
-col1, col2 = st.columns([1, 3])
+st.markdown("<div style='margin-top:-60px'></div>", unsafe_allow_html=True)
+
+col1, col2 = st.columns([1, 4])
 
 with col1:
-    st.image("logo.jpg.jpeg", width=120)
+    st.image("logo.jpg.jpeg", width=160)  # 👈 logo bigger
 
 with col2:
     st.markdown("""
-    <h1 style='color:#22c55e; margin-top:20px;'>
+    <h1 style='color:#22c55e; margin-top:-10px;'>
     Graphic Era Smart Assistant
     </h1>
     
-    <p style='color:#cbd5f5; margin-top:-10px;'>
+    <p style='color:#cbd5f5; margin-top:-15px;'>
     Your 24/7 College Help Partner 🤖
     </p>
     """, unsafe_allow_html=True)

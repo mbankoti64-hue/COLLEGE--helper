@@ -106,8 +106,8 @@ college_data = {
      Founder: Prof.(Dr.)Kamal Ghanshala\n
      Type: Private Deemed University\n
      Accreditation: NAAC A+💯 Grade\n
-     Approved by:🎓UGC, AICTE""",
-    st.info(college_data["about"])
+     Approved by:🎓UGC, AICTE"""
+    st.info(college_data["about"]),
    
     "courses": """\n
 🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security\n

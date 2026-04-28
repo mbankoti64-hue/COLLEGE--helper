@@ -33,7 +33,7 @@ p {
     text-shadow: 0 0 6px rgba(255,255,255,0.5);
 }
 
-/* Chat messages */
+/* Chat messages box */
 [data-testid="stChatMessage"] {
     border-radius: 15px;
     padding: 12px;
@@ -42,6 +42,17 @@ p {
     border: 1px solid #a855f7;
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
     color: #ffffff;
+}
+
+/* 🔥 OUTPUT TEXT (Glow + Bold) */
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span,
+[data-testid="stChatMessage"] div {
+    font-weight: 600;
+    color: #F8FAFF;
+    text-shadow: 
+        0 0 6px rgba(255,255,255,0.6),
+        0 0 12px rgba(168,85,247,0.6);
 }
 
 /* Sidebar */

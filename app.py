@@ -107,6 +107,8 @@ college_data = {
      Type: Private Deemed University\n
      Accreditation: NAAC A+💯 Grade\n
      Approved by:🎓UGC, AICTE""",
+    st.info(college_data["about"])
+    st.info(college_data["courses"])
     
     "courses": """\n
 🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security\n

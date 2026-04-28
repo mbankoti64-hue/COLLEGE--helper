@@ -7,30 +7,50 @@ st.set_page_config(page_title="Graphic Era Smart Chatbot", layout="wide")
 # -------------------------------
 st.markdown("""
 <style>
+
+/* Background */
 .stApp {
-    background: linear-gradient(135deg, #0f172a, #1e293b, #0ea5e9);
-    color: white;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
 }
 
+/* Heading */
 h1 {
     text-align: left;
-    color: #4CAF50;
+    color: #a855f7;
+    text-shadow: 0 0 12px #a855f7;
 }
 
+/* Paragraph / normal text */
+p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+
+/* Chat messages */
 [data-testid="stChatMessage"] {
     border-radius: 15px;
     padding: 12px;
     margin: 8px;
-    background-color: #1e293b;
+    background-color: rgba(15, 12, 41, 0.75);
+    border: 1px solid #a855f7;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+    color: #ffffff;
 }
 
+/* Sidebar */
 section[data-testid="stSidebar"] {
-    background-color: #020617;
+    background-color: #0f0c29;
 }
 
+/* Top spacing */
 .block-container {
     padding-top: 3rem;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -44,15 +64,14 @@ with col1:
 
 with col2:
     st.markdown("""
-    <h1 style='margin:0; padding:0; color:#22c55e;'>
+    <h1 style='margin:0; padding:0;'>
     Graphic Era Smart Assistant
     </h1>
 
-    <p style='color:#cbd5f5; margin-top:5px;'>
+    <p style='margin-top:5px;'>
     Your 24/7 College Help Partner 🤖
     </p>
     """, unsafe_allow_html=True)
-
 
 
 # -------------- -----------------

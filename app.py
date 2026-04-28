@@ -12,8 +12,82 @@ st.markdown("""
 .stApp {
     background:
         linear-gradient(rgba(10,10,30,0.85), rgba(20,20,50,0.9)),
-        url("https://images.unsplash.com/photo-1550751827-
+        url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
 
+/* Heading */
+h1 {
+    text-align: left;
+    color: #a855f7;
+    text-shadow: 0 0 12px #a855f7;
+}
+
+/* Paragraph / normal text */
+p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+
+/* 🔵 FORCE BLUE FOR ALL MESSAGE TYPES */
+[data-testid="stChatMessage"],
+[data-testid="stSuccess"],
+[data-testid="stAlert"] {
+    border-radius: 12px;
+    padding: 12px;
+    margin: 8px;
+
+    background: #1e3a8a !important;   /* BLUE FORCE */
+    border: 1px solid #3b82f6;
+
+    color: #ffffff !important;
+    font-weight: 600;
+
+    box-shadow: 0 0 12px rgba(59,130,246,0.6);
+}
+
+/* Text inside messages */
+[data-testid="stChatMessage"] *,
+[data-testid="stSuccess"] *,
+[data-testid="stAlert"] * {
+    color: #ffffff !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #0f0c29;
+}
+
+/* Top spacing */
+.block-container {
+    padding-top: 3rem;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
+# -------------------------------
+# HEADER
+# -------------------------------
+col1, col2 = st.columns([1, 4])
+
+with col1:
+    st.image("logo.jpg.jpeg", width=170)
+
+with col2:
+    st.markdown("""
+    <h1 style='margin:0; padding:0;'>
+    Graphic Era Smart Assistant
+    </h1>
+
+    <p style='margin-top:5px;'>
+    Your 24/7 College Help Partner 🤖
+    </p>
+    """, unsafe_allow_html=True)
 
 -------------- -----------------
 Welcome Message (only once)

@@ -74,7 +74,7 @@ if "welcome_shown" not in st.session_state:
 # Data
 
 college_data = {
-     "about": """
+     "about": """\n
      LOCATION" : 🏔️Dehadun , uttrakhand\n
      ESTABLISHED: 1997\n
      Founder: Prof.(Dr.)Kamal Ghanshala\n

@@ -171,7 +171,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
    
     "hostel":"""\n
      Sure! Here's everything you need to know about the college hostels\n\n
-    - CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
+    - CHANDRA SHEKHER AZAD  &nbsp (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
     - ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)
     - NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)
     - SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  

@@ -190,11 +190,11 @@ If there's anything else you'd like to explore or know in more detail, feel free
     
     "companies":"""\n
      Sure! Here's everything you need to know about the companies\n\n
-    .TCS
-    .Infosys
-    .Wipro
-    .Micrisoft
-    .Google  
+    -TCS\n
+    -Infosys\n
+    -Wipro\n
+    -Micrisoft\n
+    -Google 
 
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
@@ -229,12 +229,12 @@ If there's anything else you'd like to explore or know in more detail, feel free
     # 3. Mathematics Foundation for AI
     # 4. Professional English Skills
     # 5. Principales and Practices of Managements 
-
+https://github.com/mbankoti64-hue/COLLEGE--helper/blob/main/app.py 
     #                thes are major subjects""",
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
-    1. Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)
+    1. Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)\n
     2. Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)\n
     3. Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)\n
     4. Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)\n

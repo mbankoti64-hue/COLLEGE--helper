@@ -234,13 +234,13 @@ If there's anything else you'd like to explore or know in more detail, feel free
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
-    Mr. priyansh kumar          🧑‍🏫Faculty Cabin   (Paramedical 4th floor)\n
-    Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin  (Paramedical 2th floor)\n
-    Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin   (OLD MCA 2th floor)\n
-    Ms. Aayushi Rana            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
-    Ms. Swati Pant              👩‍🏫Faculty Cabin   (Paramedical 4th floor)\n
-    Ms. shurti Saini            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
-    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin   (Paramedical 2th floor)
+    1. Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)\n
+    2. Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)\n
+    3. Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)\n
+    4. Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)\n
+    5. Ms. Swati Pant               Faculty Cabin   (Paramedical 4th floor)\n
+    6. Ms. shurti Saini             Faculty Cabin   (Paramedical 2th floor)\n
+    7. Mr. Gautam Badoni            Faculty Cabin   (Paramedical 2th floor)
 
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
             
@@ -248,13 +248,13 @@ If there's anything else you'd like to explore or know in more detail, feel free
    
     "faculty":"""\n
      Sure! Here's everything you need to know about the faculty\n\n
-    Mr. priyansh kumar   (Introduction to Data Science)             
-    Mr. Mohit Amoli      (Foundation of Artificial Intelligence)     
+    Mr. priyansh kumar   (Introduction to Data Science)  \n           
+    Mr. Mohit Amoli      (Foundation of Artificial Intelligence)\n     
     Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)\n
-    Ms. Aayushi Rana     (Programming concepts using c language)    
-    Ms. Swati Pant       (Cyber security Essentials)                  
-    Ms. shurti Saini     (LAB DS)                                   
-    Mr. Gautam Badoni    (LAb C )                                     
+    Ms. Aayushi Rana     (Programming concepts using c language)  \n  
+    Ms. Swati Pant       (Cyber security Essentials)    \n              
+    Ms. shurti Saini     (LAB DS)     \n                              
+    Mr. Gautam Badoni    (LAb C )\n                                     
             
      All 600+ Faculty | PhD Holders Industry Exprts
 

@@ -130,21 +130,17 @@ college_data = {
      Sure! Here's everything you need to know about the courses\n\n
      
 - 🎓B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security
-                          
-- 🎓BCA / MCA : AI & Data science / Cyber Security
-            
+- 🎓BCA / MCA : AI & Data science / Cyber Security       
 - 🎓BBA / MBA : AI/DS
-
-- 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment
-                
+- 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment              
 - 💯TOTAL 100+ course (UG + PG + PHD + Diploma)
 
 
 If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
            
     "fees": """\n
-    - Sure! Here's everything you need to know about the college feesn\n
-    - B.Tech:     ₹2.5–3.5 Per Year  
+     Sure! Here's everything you need to know about the college feesn\n
+    - B.Tech :     ₹2.5–3.5 Per Year  
     - BCA   :     ₹1.2–1.5  Per Year 
     - MBA   :     ₹2–3 Per Year  
     - BBA   :     ₹2 Per Year
@@ -176,11 +172,8 @@ If there's anything else you'd like to explore or know in more detail, feel free
     "hostel":"""\n
      Sure! Here's everything you need to know about the college hostels\n\n
     - CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
-    
     - ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)
-    
     - NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)
-    
     - SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  
     - Hostel fees : 160000 These fees may vary for different hostels\
     - Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security

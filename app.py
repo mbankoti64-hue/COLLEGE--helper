@@ -113,12 +113,12 @@ if "welcome_shown" not in st.session_state:
 
 college_data = {
      "about": """Sure! Here's everything you need to know about the college:\n
-     LOCATION" : 🏔️Dehadun , uttrakhand\n
-     ESTABLISHED: 1997\n
-     Founder: Prof.(Dr.)Kamal Ghanshala\n
-     Type: Private Deemed University\n
-     Accreditation: NAAC A+💯 Grade\n
-     Approved by:🎓UGC, AICTE""",
+      LOCATION : 🏔️Dehadun , uttrakhand\n
+      ESTABLISHED: 1997\n
+      Founder: Prof.(Dr.)Kamal Ghanshala\n
+      Type: Private Deemed University\n
+      Accreditation: NAAC A+💯 Grade\n
+      Approved by:🎓UGC, AICTE""",
      
    
     "courses": """\n

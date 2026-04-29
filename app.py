@@ -234,7 +234,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
-    - Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)
+    - Mr. priyansh kumar          \t Faculty Cabin   (Paramedical 4th floor)
     - Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)
     - Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)
     - Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)

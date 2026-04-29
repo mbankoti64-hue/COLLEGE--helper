@@ -115,12 +115,15 @@ college_data = {
       
      "about": """\n
       Sure! Here's everything you need to know about the college\n
+      
       LOCATION : 🏔️Dehadun , uttrakhand\n
       ESTABLISHED: 1997\n
       Founder: Prof.(Dr.)Kamal Ghanshala\n
       Type: Private Deemed University\n
       Accreditation: NAAC A+💯 Grade\n
-      Approved by:🎓UGC, AICTE""",
+      Approved by:🎓UGC, AICTE\n
+      
+      If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!""",
      
    
     "courses": """\n

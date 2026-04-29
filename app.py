@@ -198,9 +198,9 @@ If there's anything else you'd like to explore or know in more detail, feel free
     1. KP.Nautiyal
     2. Chanakya block
     3. OLD MCA block
-    4. Main(admission)/ Btech block
-    5. CS/IT  block    (BCA and MCA classes are held in the CS/IT block)
-    6. Paramedical block
+    4. Main(admission)/ Btech block  [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
+    5. CS/IT  block    (BCA and MCA classes are held in the CS/IT block)  [https://maps.app.goo.gl/8PAvvyDCTchfH1rp6?g_st=aw]
+    6. Paramedical block [https://maps.app.goo.gl/8PAvvyDCTchfH1rp6?g_st=aw]
 
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",

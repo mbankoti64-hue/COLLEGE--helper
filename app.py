@@ -234,13 +234,13 @@ If there's anything else you'd like to explore or know in more detail, feel free
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
-    1. Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)\n
-    2. Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)\n
-    3. Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)\n
-    4. Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)\n
-    5. Ms. Swati Pant               Faculty Cabin   (Paramedical 4th floor)\n
-    6. Ms. shurti Saini             Faculty Cabin   (Paramedical 2th floor)\n
-    7. Mr. Gautam Badoni            Faculty Cabin   (Paramedical 2th floor)
+    - Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)
+    - Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)
+    - Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)
+    - Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)
+    - Ms. Swati Pant               Faculty Cabin   (Paramedical 4th floor)
+    - Ms. shurti Saini             Faculty Cabin   (Paramedical 2th floor)
+    - Mr. Gautam Badoni            Faculty Cabin   (Paramedical 2th floor)
 
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
             

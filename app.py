@@ -190,10 +190,10 @@ If there's anything else you'd like to explore or know in more detail, feel free
     
     "companies":"""\n
      Sure! Here's everything you need to know about the companies\n\n
-    .TCS\n
-    .Infosys\n
-    .Wipro\n
-    .Micrisoft\n
+    .TCS
+    .Infosys
+    .Wipro
+    .Micrisoft
     .Google  
 
     
@@ -234,7 +234,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
-    1. Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)\n
+    1. Mr. priyansh kumar           Faculty Cabin   (Paramedical 4th floor)
     2. Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)\n
     3. Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)\n
     4. Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)\n

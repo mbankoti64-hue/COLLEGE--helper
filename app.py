@@ -143,7 +143,7 @@ college_data = {
 If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
            
     "fees": """\n
-    -  Sure! Here's everything you need to know about the college feesn\n
+    - Sure! Here's everything you need to know about the college feesn\n
     - B.Tech:     ₹2.5–3.5 Per Year  
     - BCA   :     ₹1.2–1.5  Per Year 
     - MBA   :     ₹2–3 Per Year  
@@ -175,15 +175,15 @@ If there's anything else you'd like to explore or know in more detail, feel free
    
     "hostel":"""\n
      Sure! Here's everything you need to know about the college hostels\n\n
-    -   CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
+    - CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
     
-    -   ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)
+    - ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)
     
-    -   NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)
+    - NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)
     
-    -   SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  
-    -   Hostel fees : 160000 These fees may vary for different hostels\
-    -   Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security
+    - SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  
+    - Hostel fees : 160000 These fees may vary for different hostels\
+    - Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security
 
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
@@ -234,13 +234,13 @@ If there's anything else you'd like to explore or know in more detail, feel free
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
-    - Mr. priyansh kumar          \t Faculty Cabin   (Paramedical 4th floor)
-    - Mr. Mohit Amoli              Faculty Cabin  (Paramedical 2th floor)
-    - Dr. Didvijay Tanwar          Faculty Cabin   (OLD MCA 2th floor)
-    - Ms. Aayushi Rana             Faculty Cabin   (Paramedical 2th floor)
-    - Ms. Swati Pant               Faculty Cabin   (Paramedical 4th floor)
-    - Ms. shurti Saini             Faculty Cabin   (Paramedical 2th floor)
-    - Mr. Gautam Badoni            Faculty Cabin   (Paramedical 2th floor)
+    - Mr. priyansh kumar           [ Faculty Cabin   (Paramedical 4th floor)]
+    - Mr. Mohit Amoli              [ Faculty Cabin  (Paramedical 2th floor)]
+    - Dr. Didvijay Tanwar          [ Faculty Cabin   (OLD MCA 2th floor)]
+    - Ms. Aayushi Rana             [Faculty Cabin   (Paramedical 2th floor)]
+    - Ms. Swati Pant               [Faculty Cabin   (Paramedical 4th floor)]
+    - Ms. shurti Saini             [Faculty Cabin   (Paramedical 2th floor)]
+    - Mr. Gautam Badoni            [Faculty Cabin   (Paramedical 2th floor)]
 
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
             
@@ -248,13 +248,13 @@ If there's anything else you'd like to explore or know in more detail, feel free
    
     "faculty":"""\n
      Sure! Here's everything you need to know about the faculty\n\n
-    Mr. priyansh kumar   (Introduction to Data Science)  \n           
-    Mr. Mohit Amoli      (Foundation of Artificial Intelligence)\n     
-    Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)\n
-    Ms. Aayushi Rana     (Programming concepts using c language)  \n  
-    Ms. Swati Pant       (Cyber security Essentials)    \n              
-    Ms. shurti Saini     (LAB DS)     \n                              
-    Mr. Gautam Badoni    (LAb C )\n                                     
+    - Mr. priyansh kumar   (Introduction to Data Science)            
+    - Mr. Mohit Amoli      (Foundation of Artificial Intelligence)    
+    - Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)
+    - Ms. Aayushi Rana     (Programming concepts using c language)   
+    - Ms. Swati Pant       (Cyber security Essentials)                
+    - Ms. shurti Saini     (LAB DS)                                  
+    - Mr. Gautam Badoni    (LAb C )                                    
             
      All 600+ Faculty | PhD Holders Industry Exprts
 

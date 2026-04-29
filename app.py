@@ -195,7 +195,9 @@ If there's anything else you'd like to explore or know in more detail, feel free
     3. OLD MCA block
     4. Main(admission)/ Btech block
     5. CS/IT  block    (BCA and MCA classes are held in the CS/IT block)
-    6. Paramedical block\n
+    6. Paramedical block
+
+    
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     "syllabus":"""\n

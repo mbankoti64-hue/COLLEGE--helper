@@ -119,7 +119,7 @@ college_data = {
      📍LOCATION : 🏔️Dehadun , uttrakhand\n
      🏛️ESTABLISHED: 1997\n
      👨‍🏫Founder: Prof.(Dr.)Kamal Ghanshala\n
-      Type: Private Deemed University\n
+     🏛️Type: Private Deemed University\n
     ⭐Accreditation: NAAC A+💯 Grade\n
       Approved by:🎓UGC, AICTE\n\n
       
@@ -127,6 +127,8 @@ college_data = {
      
    
     "courses": """\n
+     Sure! Here's everything you need to know about the course\n\n
+     
 🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security\n
                           
 🎓BCA / MCA : AI & Data science / Cyber Security\n  
@@ -138,17 +140,20 @@ college_data = {
 💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
            
     "fees": """\n
+     Sure! Here's everything you need to know about the college\n\n
     .B.Tech: ₹2.5–3.5 Per Year  \n 
     .BCA:    ₹1.2–1.5  Per Year \n
     .MBA:    ₹2–3 Per Year  \n 
     .BBA:    ₹2 Per Year""",
     
     "placement": """\n
+     Sure! Here's everything you need to know about the college\n\n
     Highest: ₹65+ LPA\n 
     Average Package: ₹5–8 LPA\n
     Placement Rate: 90%+.""",
 
     "facilities": """\n
+     Sure! Here's everything you need to know about the college\n\n
     .Smart Classrooms\n
     .Central Library\n
     .Computer Labs\n
@@ -157,6 +162,7 @@ college_data = {
     
    
     "hostel":"""\n
+     Sure! Here's everything you need to know about the college\n\n
     1. CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw)\n  
     
     2. ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)\n 
@@ -168,6 +174,7 @@ college_data = {
     .Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security""", 
     
     "companies":"""\n
+     Sure! Here's everything you need to know about the college\n\n
     .TCS\n
     .Infosys\n
     .Wipro\n
@@ -175,6 +182,7 @@ college_data = {
     .Google""",
 
     "block":"""\n
+     Sure! Here's everything you need to know about the college\n\n
     Total Block 6 Major Block are their
     1. KP.Nautiyal
     2. Chanakya block
@@ -184,6 +192,7 @@ college_data = {
     6. Paramedical block""",
 
     "syllabus":"""\n
+     Sure! Here's everything you need to know about the college\n\n
     1. Computational Thinking and fundamentals of IT
     2. Fundamentals of Python
     3. Mathematics Foundation for AI
@@ -202,6 +211,7 @@ college_data = {
     #                thes are major subjects""",
      
     "cabin":"""\n
+     Sure! Here's everything you need to know about the college\n\n
     Mr. priyansh kumar          🧑‍🏫Faculty Cabin   (Paramedical 4th floor)\n
     Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin  (Paramedical 2th floor)\n
     Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin   (OLD MCA 2th floor)\n
@@ -213,6 +223,7 @@ college_data = {
     
    
     "faculty":"""\n
+     Sure! Here's everything you need to know about the college\n\n
     Mr. priyansh kumar   (Introduction to Data Science)             
     Mr. Mohit Amoli      (Foundation of Artificial Intelligence)     
     Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)\n

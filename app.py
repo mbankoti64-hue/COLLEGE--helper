@@ -319,9 +319,9 @@ def get_response(user_input):
     elif "about" in user_input or "college" in user_input:
         return college_data["about"]
     elif "hi" in user_input or "hello" in user_input or "namste bhai jii" in user_input:
-        return "AAGYA GANDU🤣🤣🤣🤣"
+        return "Namaste sir graphic era me aapka swagat hai"
     else:
-        return "❗   ARE BHOSDIKE TERI GAND MARU KUCH ACCHA PUCH Try asking about fees, courses, placement, hostel."
+        return "❗   Me abhi itna bhi advanced nahi hu ...Try asking about fees, courses, placement, hostel."
 
 # -------------------------------
 # Show old messages

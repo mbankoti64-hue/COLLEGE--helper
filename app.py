@@ -121,7 +121,7 @@ college_data = {
      👨‍🏫Founder: Prof.(Dr.)Kamal Ghanshala\n
      🏛️Type: Private Deemed University\n
     ⭐Accreditation: NAAC A+💯 Grade\n
-      Approved by:🎓UGC, AICTE\n\n
+      Approved by:🎓UGC, AICTE
       
       If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
      
@@ -137,7 +137,9 @@ college_data = {
 
 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment\n
                 
-💯 TOTAL 100+ course (UG + PG + PHD + Diploma)\n
+💯 TOTAL 100+ course (UG + PG + PHD + Diploma)
+
+
 If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
            
     "fees": """\n
@@ -145,14 +147,18 @@ If there's anything else you'd like to explore or know in more detail, feel free
     .B.Tech: ₹2.5–3.5 Per Year  \n 
     .BCA:    ₹1.2–1.5  Per Year \n
     .MBA:    ₹2–3 Per Year  \n 
-    .BBA:    ₹2 Per Year\n
+    .BBA:    ₹2 Per Year
+
+    
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
     "placement": """\n
      Sure! Here's everything you need to know about the college placement\n\n
     Highest: ₹65+ LPA\n 
     Average Package: ₹5–8 LPA\n
-    Placement Rate: 90%+\n
+    Placement Rate: 90%+
+
+    
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     "facilities": """\n
@@ -161,7 +167,9 @@ If there's anything else you'd like to explore or know in more detail, feel free
     .Central Library\n
     .Computer Labs\n
     .Gym\n
-    .Medical Facility\n
+    .Medical Facility
+
+    
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
    
@@ -175,7 +183,9 @@ If there's anything else you'd like to explore or know in more detail, feel free
     
     4. SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  \n
     .Hostel fees : 160000 These fees may vary for different hostels\n 
-    .Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security\n
+    .Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security
+
+    
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
     "companies":"""\n
@@ -184,7 +194,9 @@ If there's anything else you'd like to explore or know in more detail, feel free
     .Infosys\n
     .Wipro\n
     .Micrisoft\n
-    .Google\n
+    .Google  
+
+    
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     "block":"""\n
@@ -228,7 +240,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
     Ms. Aayushi Rana            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
     Ms. Swati Pant              👩‍🏫Faculty Cabin   (Paramedical 4th floor)\n
     Ms. shurti Saini            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
-    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin   (Paramedical 2th floor)\n
+    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin   (Paramedical 2th floor)
 
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
             
@@ -244,7 +256,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
     Ms. shurti Saini     (LAB DS)                                   
     Mr. Gautam Badoni    (LAb C )                                     
             
-     All 600+ Faculty | PhD Holders Industry Exprts\n
+     All 600+ Faculty | PhD Holders Industry Exprts
 
      If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     

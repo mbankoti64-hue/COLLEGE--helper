@@ -116,12 +116,12 @@ college_data = {
      "about": """\n
       Sure! Here's everything you need to know about the college\n\n
       
-     📍LOCATION : 🏔️Dehadun , uttrakhand\n
-     🏛️ESTABLISHED: 1997\n
-     👨‍🏫Founder: Prof.(Dr.)Kamal Ghanshala\n
-     🏛️Type: Private Deemed University\n
-    ⭐Accreditation: NAAC A+💯 Grade\n
-      Approved by:🎓UGC, AICTE
+     - 📍LOCATION : 🏔️Dehadun , uttrakhand
+     - 🏛️ESTABLISHED: 1997
+     - 👨‍🏫Founder: Prof.(Dr.)Kamal Ghanshala
+     - 🏛️Type: Private Deemed University
+     - ⭐Accreditation: NAAC A+💯 Grade
+     -  Approved by:🎓UGC, AICTE
       
       If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
      
@@ -129,34 +129,34 @@ college_data = {
     "courses": """\n
      Sure! Here's everything you need to know about the courses\n\n
      
-🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security\n
+- 🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security
                           
-🎓BCA / MCA : AI & Data science / Cyber Security\n  
+- 🎓BCA / MCA : AI & Data science / Cyber Security
             
-🎓BBA / MBA : AI/DS\n
+- 🎓BBA / MBA : AI/DS
 
-🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment\n
+- 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment
                 
-💯 TOTAL 100+ course (UG + PG + PHD + Diploma)
+- 💯 TOTAL 100+ course (UG + PG + PHD + Diploma)
 
 
 If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
            
     "fees": """\n
-     Sure! Here's everything you need to know about the college feesn\n
-    .B.Tech: ₹2.5–3.5 Per Year  \n 
-    .BCA:    ₹1.2–1.5  Per Year \n
-    .MBA:    ₹2–3 Per Year  \n 
-    .BBA:    ₹2 Per Year
+    -  Sure! Here's everything you need to know about the college feesn\n
+    - B.Tech: ₹2.5–3.5 Per Year  
+    - BCA:    ₹1.2–1.5  Per Year 
+    - MBA:    ₹2–3 Per Year  
+    - BBA:    ₹2 Per Year
 
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
     "placement": """\n
      Sure! Here's everything you need to know about the college placement\n\n
-    Highest: ₹65+ LPA\n 
-    Average Package: ₹5–8 LPA\n
-    Placement Rate: 90%+
+    - Highest: ₹65+ LPA
+    - Average Package: ₹5–8 LPA
+    - Placement Rate: 90%+
 
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",

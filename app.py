@@ -229,7 +229,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
     # 3. Mathematics Foundation for AI
     # 4. Professional English Skills
     # 5. Principales and Practices of Managements 
-https://github.com/mbankoti64-hue/COLLEGE--helper/blob/main/app.py 
+# https://github.com/mbankoti64-hue/COLLEGE--helper/blob/main/app.py 
     #                thes are major subjects""",
      
     "cabin":"""\n

@@ -127,7 +127,7 @@ college_data = {
      
    
     "courses": """\n
-     Sure! Here's everything you need to know about the course\n\n
+     Sure! Here's everything you need to know about the courses\n\n
      
 🎓 B.Tech: CSE / AI & Data science / Mehanical / Civil / Cyber Security\n
                           
@@ -137,32 +137,36 @@ college_data = {
 
 🎓B.Com / M.Com / Pharmacy / LAW / Hotel Managment\n
                 
-💯 TOTAL 100+ course (UG + PG + PHD + Diploma)""" ,
+💯 TOTAL 100+ course (UG + PG + PHD + Diploma)\n
+If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
            
     "fees": """\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the college feesn\n
     .B.Tech: ₹2.5–3.5 Per Year  \n 
     .BCA:    ₹1.2–1.5  Per Year \n
     .MBA:    ₹2–3 Per Year  \n 
-    .BBA:    ₹2 Per Year""",
+    .BBA:    ₹2 Per Year\n
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
     "placement": """\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the college placement\n\n
     Highest: ₹65+ LPA\n 
     Average Package: ₹5–8 LPA\n
-    Placement Rate: 90%+.""",
+    Placement Rate: 90%+\n
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     "facilities": """\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the college facilities\n\n
     .Smart Classrooms\n
     .Central Library\n
     .Computer Labs\n
     .Gym\n
-    .Medical Facility""",
+    .Medical Facility\n
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
    
     "hostel":"""\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the college hostels\n\n
     1. CHANDRA SHEKHER AZAD   (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw)\n  
     
     2. ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)\n 
@@ -171,35 +175,39 @@ college_data = {
     
     4. SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  \n
     .Hostel fees : 160000 These fees may vary for different hostels\n 
-    .Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security""", 
+    .Hostel facilities: WiFi Rooms / Mess Facility / Laundry / 24/7 Security\n
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
     "companies":"""\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the companies\n\n
     .TCS\n
     .Infosys\n
     .Wipro\n
     .Micrisoft\n
-    .Google""",
+    .Google\n
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     "block":"""\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the college block\n\n
     Total Block 6 Major Block are their
     1. KP.Nautiyal
     2. Chanakya block
     3. OLD MCA block
     4. Main(admission)/ Btech block
     5. CS/IT  block    (BCA and MCA classes are held in the CS/IT block)
-    6. Paramedical block""",
+    6. Paramedical block\n
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     "syllabus":"""\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the BCA syllabus\n\n
     1. Computational Thinking and fundamentals of IT
     2. Fundamentals of Python
     3. Mathematics Foundation for AI
     4. Professional English Skills
     5. Principales and Practices of Managements 
-
-    thes are major subjects""",
+   
+    
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
     # "Bca 2 semester syllabus":"""Syllabus:\n
     # 1. Computational Thinking and fundamentals of IT
@@ -211,19 +219,21 @@ college_data = {
     #                thes are major subjects""",
      
     "cabin":"""\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the faculty cabin\n\n
     Mr. priyansh kumar          🧑‍🏫Faculty Cabin   (Paramedical 4th floor)\n
     Mr. Mohit Amoli             🧑‍🏫 Faculty Cabin  (Paramedical 2th floor)\n
     Dr. Didvijay Tanwar         🧑‍🏫Faculty Cabin   (OLD MCA 2th floor)\n
     Ms. Aayushi Rana            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
     Ms. Swati Pant              👩‍🏫Faculty Cabin   (Paramedical 4th floor)\n
     Ms. shurti Saini            👩‍🏫Faculty Cabin   (Paramedical 2th floor)\n
-    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin   (Paramedical 2th floor)""",
+    Mr. Gautam Badoni           🧑‍🏫Faculty Cabin   (Paramedical 2th floor)\n
+
+    If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
             
     
    
     "faculty":"""\n
-     Sure! Here's everything you need to know about the college\n\n
+     Sure! Here's everything you need to know about the faculty\n\n
     Mr. priyansh kumar   (Introduction to Data Science)             
     Mr. Mohit Amoli      (Foundation of Artificial Intelligence)     
     Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)\n
@@ -232,7 +242,9 @@ college_data = {
     Ms. shurti Saini     (LAB DS)                                   
     Mr. Gautam Badoni    (LAb C )                                     
             
-     All 600+ Faculty | PhD Holders Industry Exprts"""
+     All 600+ Faculty | PhD Holders Industry Exprts\n
+
+     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
     
    
 }

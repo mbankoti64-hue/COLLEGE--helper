@@ -171,7 +171,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
    
     "hostel":"""\n
      Sure! Here's everything you need to know about the college hostels\n\n
-    - CHANDRA SHEKHER AZAD&nbsp;&nbsp;&nbsp (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
+    - CHANDRA SHEKHER AZAD (https://maps.app.goo.gl/WMhw86j7jboNe8gVA?g_st=aw) 
     - ATLANTIS HOSTEL  (https://maps.app.goo.gl/HBC6HkfLzFtDTCzN9?g_st=aw)
     - NETAJI SUBHASH CHANDRA HOSTEL  (https://maps.app.goo.gl/JdoqmhvdqMnx2DKC7?g_st=aw)
     - SAI HOSTEL  (https://maps.app.goo.gl/K6mbtBZNLC2EHnLo9?g_st=aw)  
@@ -241,6 +241,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
    
     "faculty":"""\n
      Sure! Here's everything you need to know about the faculty\n\n
+    - MR. (Dr.) Dinesh Dohbal (HOD)
     - Mr. priyansh kumar   (Introduction to Data Science)            
     - Mr. Mohit Amoli      (Foundation of Artificial Intelligence)    
     - Dr. Didvijay Tanwar  (Probability and Statistics for Data Science)
@@ -252,6 +253,8 @@ If there's anything else you'd like to explore or know in more detail, feel free
      All 600+ Faculty | PhD Holders Industry Exprts
 
      If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
+
+    
     
    
 }

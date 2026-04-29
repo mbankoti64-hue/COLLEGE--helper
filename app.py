@@ -190,10 +190,10 @@ If there's anything else you'd like to explore or know in more detail, feel free
     
     "companies":"""\n
      Sure! Here's everything you need to know about the companies\n\n
-    -TCS\n
-    -Infosys\n
-    -Wipro\n
-    -Micrisoft\n
+    -TCS
+    -Infosys
+    -Wipro
+    -Micrisoft
     -Google 
 
     

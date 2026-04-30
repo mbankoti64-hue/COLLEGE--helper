@@ -195,12 +195,14 @@ If there's anything else you'd like to explore or know in more detail, feel free
     "block":"""\n
      Sure! Here's everything you need to know about the college block\n\n
     Total Block 6 Major Block are their
-    1. KP.Nautiyal
-    2. Chanakya block
-    3. OLD MCA block
+    1. KP.Nautiyal [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
+    2. Chanakya block [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
+    3. OLD MCA block [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
     4. Main(admission)/ Btech block  [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
     5. CS/IT  block    (BCA and MCA classes are held in the CS/IT block)  [https://maps.app.goo.gl/8PAvvyDCTchfH1rp6?g_st=aw]
     6. Paramedical block [https://maps.app.goo.gl/8PAvvyDCTchfH1rp6?g_st=aw]
+    7. CAD LAb  [https://maps.app.goo.gl/jJtoyuLWQAYWu87a8?g_st=aw]
+    8. Vidhyarthi(College dress) [https://maps.app.goo.gl/jJtoyuLWQAYWu87a8?g_st=aw]
 
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
@@ -216,14 +218,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
     
     If there's anything else you'd like to explore or know in more detail, feel free to ask — I'm here to help you anytime!👍""",
 
-    # "Bca 2 semester syllabus":"""Syllabus:\n
-    # 1. Computational Thinking and fundamentals of IT
-    # 2. Fundamentals of Python
-    # 3. Mathematics Foundation for AI
-    # 4. Professional English Skills
-    # 5. Principales and Practices of Managements 
-# https://github.com/mbankoti64-hue/COLLEGE--helper/blob/main/app.py 
-    #                thes are major subjects""",
+   
      
     "cabin":"""\n
      Sure! Here's everything you need to know about the faculty cabin\n\n
@@ -319,9 +314,9 @@ def get_response(user_input):
     elif "about" in user_input or "college" in user_input:
         return college_data["about"]
     elif "hi" in user_input or "hello" in user_input or "namste bhai jii" in user_input:
-        return "😊🙏 Namaste sir graphic era me aapka swagat hai"
+        return "😊🙏 Namaste sir graphic era me aapka swagat hai or me ek chotta sa ai assistant hun jise Anshuman Mayank Shourya jii dwara bnaya gya hai🙏"
     else:
-        return "❗  😊 Me abhi itna bhi advanced nahi hu ...Try asking about fees, courses, placement, hostel🙏."
+        return "❗  😊 Me abhi itna bhi advanced nahi hu toh krpiya krke aap college se releted puche ...Try asking about fees, courses, placement, hostel🙏."
 
 # -------------------------------
 # Show old messages

@@ -194,7 +194,7 @@ If there's anything else you'd like to explore or know in more detail, feel free
 
     "block":"""\n
      Sure! Here's everything you need to know about the college block\n\n
-    Total Block 8 Major Block and MAP are their
+     Block & MAP 
     1. KP.Nautiyal [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
     2. Chanakya block [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
     3. OLD MCA block [https://maps.app.goo.gl/haAD6v2UiNW7oRFeA?g_st=aw]
